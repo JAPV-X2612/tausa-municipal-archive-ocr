@@ -67,7 +67,7 @@ pip-delete-this-directory.txt
 outputs/
 
 # Source PDF documents (potentially sensitive municipal records)
-assets/docs/
+assets/docs/*.pdf
 
 # Processed images cache
 assets/cache/
