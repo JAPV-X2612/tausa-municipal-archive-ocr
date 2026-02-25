@@ -1,0 +1,3 @@
+anthropic
+pdf2image
+Pillow
