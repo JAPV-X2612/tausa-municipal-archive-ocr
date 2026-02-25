@@ -11,7 +11,7 @@ from dataclasses import asdict
 from pathlib import Path
 
 from src.config import settings
-from src.ocr.pipeline import PipelineResult
+from src.models.models import PipelineResult
 
 class TranscriptionRepository:
     """Persists transcription results to the local filesystem.

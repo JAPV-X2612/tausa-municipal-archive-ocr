@@ -6,39 +6,15 @@ following the facade pattern to provide a single entry point for the CLI.
 """
 
 import time
-from dataclasses import dataclass, field
-from datetime import datetime, timezone
 from pathlib import Path
 
 import anthropic
 
 from src.config import settings
+from src.models.models import PageResult, PipelineResult
 from src.ocr.pdf_processor import load_pdf_pages, parse_page_range
 from src.ocr.transcriber import PageTranscriber
 from src.storage.repository import TranscriptionRepository
-
-
-@dataclass
-class PageResult:
-    """Holds the transcription result and metadata for a single document page."""
-
-    page_number: int
-    transcription: str
-    processing_time_seconds: float
-
-
-@dataclass
-class PipelineResult:
-    """Aggregated result of a full document transcription run."""
-
-    source_file: str
-    document_title: str
-    model: str
-    total_pages: int
-    processed_pages: list[PageResult] = field(default_factory=list)
-    started_at: str = field(
-        default_factory=lambda: datetime.now(timezone.utc).isoformat()
-    )
 
 
 class TranscriptionPipeline:
