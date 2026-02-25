@@ -27,7 +27,7 @@ from PIL import Image
 # CONFIGURACIÓN
 # ─────────────────────────────────────────────────────────────
 
-CLAUDE_MODEL   = "claude-opus-4-6"    # Mejor capacidad de visión
+CLAUDE_MODEL   = "claude-sonnet-4-6"    # Mejor capacidad de visión
 DPI            = 200                  # Resolución de conversión PDF → imagen
 MAX_IMG_WIDTH  = 1600                 # Máx ancho en px (evita tokens excesivos)
 RETRY_ATTEMPTS = 3                    # Reintentos ante error de API
@@ -168,7 +168,7 @@ def main():
         print("   Exporta tu clave: export ANTHROPIC_API_KEY='sk-ant-...'")
         sys.exit(1)
 
-    output_path = Path(args.output) if args.output else pdf_path.with_suffix("_transcription.txt")
+    output_path = Path(args.output) if args.output else pdf_path.parent / f"{pdf_path.stem}_transcription.txt"
 
     # ── Convertir PDF a imágenes ───────────────────────────────
     print(f"📄 Cargando PDF: {pdf_path.name}")
