@@ -38,6 +38,7 @@ IMAGE_FORMAT: str = "PNG"
 IMAGE_MAX_WIDTH: int = int(os.getenv("IMAGE_MAX_WIDTH", "1600"))
 CONTRAST_FACTOR: float = float(os.getenv("CONTRAST_FACTOR", "1.3"))
 SHARPNESS_FACTOR: float = float(os.getenv("SHARPNESS_FACTOR", "1.2"))
+JPEG_QUALITY: int = int(os.getenv("JPEG_QUALITY", "88"))
 
 # =============================================================================
 # PIPELINE BEHAVIOR
