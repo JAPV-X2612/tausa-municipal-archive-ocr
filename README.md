@@ -1,26 +1,27 @@
-# OCR Documentos Históricos — Municipio de Tausa
+# Tausa Municipal Archive — Historical OCR Pipeline
 
-Pipeline para transcribir caligrafía manuscrita de los libros del Despacho 
-del Alcalde de Tausa, Cundinamarca (1925–1954) usando la API de Claude.
-
----
-
-## Requisitos previos
-
-- Python 3.9 o superior  
-- Poppler instalado (convierte PDF a imágenes)  
-- Clave API de Anthropic (plan Pro o API directa)
+An AI-powered OCR pipeline that transcribes handwritten manuscripts from the municipal archive
+of Tausa, Cundinamarca, Colombia (1925–1954) using the Claude Vision API. Transcribed documents
+are stored in a vector database to enable semantic Q&A over the historical corpus.
 
 ---
 
-## PASO 1 — Instalar Poppler
+## Prerequisites
+
+- Python 3.9 or higher
+- Poppler (converts PDF pages to images)
+- Anthropic API key
+
+---
+
+## Step 1 — Install Poppler
 
 **Windows:**
 ```
-1. Descarga: https://github.com/oschwartz10612/poppler-windows/releases
-2. Descomprime en C:\poppler
-3. Agrega C:\poppler\Library\bin al PATH del sistema
-4. Verifica: pdftoppm --version
+1. Download: https://github.com/oschwartz10612/poppler-windows/releases
+2. Extract to C:\poppler
+3. Add C:\poppler\Library\bin to your system PATH
+4. Verify: pdftoppm --version
 ```
 
 **macOS:**
@@ -35,141 +36,125 @@ sudo apt-get install poppler-utils
 
 ---
 
-## PASO 2 — Crear entorno virtual e instalar dependencias
+## Step 2 — Create virtual environment and install dependencies
 
 ```bash
-# Crear entorno virtual
-python -m venv venv
+python -m venv .venv
 
-# Activar (Windows)
-venv\Scripts\activate
+# Activate (Windows)
+.venv\Scripts\activate
 
-# Activar (macOS/Linux)
-source venv/bin/activate
+# Activate (macOS / Linux)
+source .venv/bin/activate
 
-# Instalar dependencias
 pip install -r requirements.txt
 ```
 
 ---
 
-## PASO 3 — Configurar tu API Key de Anthropic
+## Step 3 — Configure environment variables
 
-Obtén tu clave en: https://console.anthropic.com/keys
-
-**Windows (PowerShell):**
-```powershell
-$env:ANTHROPIC_API_KEY = "sk-ant-api03-TU_CLAVE_AQUI"
-```
-
-**Windows (CMD):**
-```cmd
-set ANTHROPIC_API_KEY=sk-ant-api03-TU_CLAVE_AQUI
-```
-
-**macOS / Linux:**
 ```bash
-export ANTHROPIC_API_KEY="sk-ant-api03-TU_CLAVE_AQUI"
+cp .env.example .env
+# Edit .env and set your ANTHROPIC_API_KEY
 ```
 
-> 💡 Para que sea permanente en Linux/macOS, agrega la línea `export ANTHROPIC_API_KEY=...`
-> al final de tu `~/.bashrc` o `~/.zshrc`.
+Get your key at: https://console.anthropic.com/keys
 
 ---
 
-## PASO 4 — Ejecutar la transcripción
+## Step 4 — Run the transcription pipeline
 
-### Transcribir el PDF completo:
+### Transcribe a full PDF:
 ```bash
-python transcribe.py --pdf Despacho_Del_alcalde_1953-1954.pdf
+python transcribe.py --pdf assets/docs/tausa_alcaldia_despacho_alcalde_1953_1954.pdf \
+                     --title "Tausa - Despacho del Alcalde 1953-1954" \
+                     --json
 ```
 
-### Transcribir solo algunas páginas (útil para prueba inicial):
+### Transcribe specific pages (useful for initial validation):
 ```bash
-# Solo las primeras 3 páginas
-python transcribe.py --pdf Despacho_Del_alcalde_1953-1954.pdf --pages 1-3
+# First 3 pages only
+python transcribe.py --pdf assets/docs/tausa_alcaldia_despacho_alcalde_1953_1954.pdf --pages 1-3
 
-# Páginas específicas
-python transcribe.py --pdf Despacho_Del_alcalde_1953-1954.pdf --pages 1,5,10
+# Non-consecutive pages
+python transcribe.py --pdf assets/docs/tausa_alcaldia_despacho_alcalde_1953_1954.pdf --pages 1,5,10
 ```
 
-### Con nombre de salida personalizado:
-```bash
-python transcribe.py --pdf Despacho_Del_alcalde_1953-1954.pdf --output contratos_1953.txt
-```
+### CLI reference:
 
-### Incluyendo salida JSON con metadata:
-```bash
-python transcribe.py --pdf Despacho_Del_alcalde_1953-1954.pdf --json
-```
+| Flag | Required | Description |
+|------|----------|-------------|
+| `--pdf` | Yes | Path to the source PDF file |
+| `--title` | No | Human-readable document title (defaults to filename) |
+| `--pages` | No | Page range, e.g. `1-5` or `1,3,7` (defaults to all pages) |
+| `--json` | No | Also save results as structured JSON with page-level metadata |
 
 ---
 
-## PASO 5 — Revisar resultados
+## Step 5 — Review output
 
-El script genera automáticamente:
+Each pipeline run produces two files in `outputs/`:
 
-| Archivo | Descripción |
-|---------|-------------|
-| `Despacho_Del_alcalde_1953-1954_transcripcion.txt` | Texto completo de todos los contratos |
-| `Despacho_Del_alcalde_1953-1954_transcripcion.json` | Mismo contenido con metadata por página (solo con `--json`) |
+| File | Description |
+|------|-------------|
+| `<pdf-name>_transcription.txt` | Plain-text transcription, saved incrementally after each page |
+| `<pdf-name>_transcription.json` | Structured JSON with full page metadata (only with `--json`) |
 
-**El script guarda progreso incrementalmente** — si se interrumpe, ya tendrás 
-el texto de las páginas procesadas hasta ese punto.
-
----
-
-## Costo estimado
-
-Cada página de este tipo de documento usa aproximadamente:
-- ~800–1200 tokens de entrada (imagen)  
-- ~500–800 tokens de salida (transcripción)
-
-| Archivo | Páginas | Costo aprox. |
-|---------|---------|--------------|
-| Despacho_1953-1954.pdf | 15 | ~$0.15–0.30 USD |
-| Colección completa (est. 500 págs.) | 500 | ~$5–10 USD |
+The pipeline saves progress after every page — if interrupted, already-processed pages are preserved.
 
 ---
 
-## Solución de problemas
+## Estimated API cost
 
-**Error: `poppler not installed`**  
-→ Instala Poppler (ver Paso 1) y asegúrate de que esté en el PATH.
+Each page consumes approximately:
+- ~800–1 200 input tokens (image)
+- ~500–800 output tokens (transcription)
 
-**Error: `ANTHROPIC_API_KEY no configurada`**  
-→ Verifica que exportaste la variable en la terminal activa (no en otra pestaña).
-
-**Transcripción con muchos `[ilegible]`**  
-→ Sube el DPI en `transcribe.py`: cambia `DPI = 200` a `DPI = 300`.  
-   Nota: imágenes más grandes = más tokens = mayor costo.
-
-**Rate limit (demasiadas peticiones)**  
-→ El script ya gestiona reintentos automáticos. Si persiste, aumenta  
-  `RETRY_DELAY = 5` a `RETRY_DELAY = 10` en `transcribe.py`.
+| Document | Pages | Approx. cost |
+|----------|-------|--------------|
+| Despacho del Alcalde 1953–1954 | 15 | ~$0.15–0.30 USD |
+| Full corpus (~250 pages) | 250 | ~$2.50–5.00 USD |
 
 ---
 
-## Estructura del proyecto
+## Troubleshooting
+
+**`Unable to get page count. Is poppler installed and in PATH?`**
+Install Poppler (see Step 1) and ensure it is on your system PATH.
+
+**`ANTHROPIC_API_KEY is not set`**
+Verify the variable is exported in your active terminal session and that `.env` exists.
+
+**Many `[illegible]` markers in output**
+Increase `PDF_DPI` in `.env` from `200` to `300`. Note: higher DPI means larger images,
+more tokens, and higher cost per page.
+
+**Rate limit errors**
+The pipeline handles retries automatically. If errors persist, increase
+`RETRY_DELAY_SECONDS` in `.env`.
+
+---
+
+## Project structure
 
 ```
-ocr_tausa/
-├── transcribe.py        ← Script principal
-├── requirements.txt     ← Dependencias Python
-├── README.md            ← Esta guía
-└── resultados/          ← Carpeta sugerida para tus outputs
+tausa-municipal-archive-ocr/
+├── transcribe.py              # CLI entry point for the OCR pipeline
+├── requirements.txt           # Python dependencies
+├── .env.example               # Environment variable reference
+├── assets/
+│   └── docs/                  # Source PDF documents
+├── outputs/                   # Transcription results (TXT + JSON)
+└── src/
+    ├── config/settings.py     # Centralised configuration
+    ├── models/models.py       # Shared data models
+    ├── ocr/
+    │   ├── pipeline.py        # Orchestrator (facade pattern)
+    │   ├── pdf_processor.py   # PDF → PIL image conversion
+    │   ├── image_processor.py # Image enhancement + base64 encoding
+    │   └── transcriber.py     # Claude Vision API client
+    ├── prompts/templates.py   # System and page-level prompt templates
+    ├── rag/retriever.py       # Semantic retrieval over ChromaDB (Step 2)
+    └── storage/repository.py  # TXT and JSON persistence (repository pattern)
 ```
-
----
-
-## Próximo paso: hacer el corpus consultable
-
-Una vez tengas los `.txt` de todos los archivos, puedes crear un chatbot 
-que responda preguntas sobre los documentos usando RAG (retrieval-augmented generation).
-
-Herramientas recomendadas:
-- **LlamaIndex** — indexación y consulta de documentos locales
-- **ChromaDB** — base vectorial gratuita y local  
-- **Streamlit** — interfaz web simple para el chatbot
-
-Pídele a Claude que te arme ese pipeline cuando tengas los textos listos.
