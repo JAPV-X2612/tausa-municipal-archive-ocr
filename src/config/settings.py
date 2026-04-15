@@ -16,7 +16,7 @@ load_dotenv()
 # BASE PATHS
 # =============================================================================
 
-ROOT_DIR: Path = Path(__file__).resolve().parents[4]
+ROOT_DIR: Path = Path(__file__).resolve().parents[2]
 ASSETS_DIR: Path = ROOT_DIR / "assets"
 DOCS_DIR: Path = ASSETS_DIR / "docs"
 OUTPUTS_DIR: Path = ROOT_DIR / "outputs"
@@ -26,7 +26,7 @@ OUTPUTS_DIR: Path = ROOT_DIR / "outputs"
 # =============================================================================
 
 ANTHROPIC_API_KEY: str = os.getenv("ANTHROPIC_API_KEY", "")
-CLAUDE_MODEL: str = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-5")
+CLAUDE_MODEL: str = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-6")
 MAX_OUTPUT_TOKENS: int = int(os.getenv("MAX_OUTPUT_TOKENS", "4096"))
 
 # =============================================================================
