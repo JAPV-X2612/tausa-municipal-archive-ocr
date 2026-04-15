@@ -77,13 +77,23 @@ class TranscriptionRepository:
             result: Completed pipeline result to serialize.
             pdf_path: Source PDF path used to derive the output filename.
         """
-        json_path = self._resolve_json_path(pdf_path)
+        json_path = self.resolve_json_path(pdf_path)
         payload = asdict(result)
         json_path.write_text(
             json.dumps(payload, ensure_ascii=False, indent=2),
             encoding="utf-8",
         )
-        print(f"✅ JSON saved: {json_path}")
+
+    def resolve_json_path(self, pdf_path: Path) -> Path:
+        """Derive the .json output path from the source PDF filename.
+
+        Args:
+            pdf_path: Source PDF path.
+
+        Returns:
+            Resolved Path for the structured JSON output file.
+        """
+        return self._output_dir / f"{pdf_path.stem}_transcription.json"
 
     def _resolve_txt_path(self, pdf_path: Path) -> Path:
         """Derive the .txt output path from the source PDF filename.
@@ -95,14 +105,3 @@ class TranscriptionRepository:
             Resolved Path for the plain-text transcription file.
         """
         return self._output_dir / f"{pdf_path.stem}_transcription.txt"
-
-    def _resolve_json_path(self, pdf_path: Path) -> Path:
-        """Derive the .json output path from the source PDF filename.
-
-        Args:
-            pdf_path: Source PDF path.
-
-        Returns:
-            Resolved Path for the structured JSON output file.
-        """
-        return self._output_dir / f"{pdf_path.stem}_transcription.json"

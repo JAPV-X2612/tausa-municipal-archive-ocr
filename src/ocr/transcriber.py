@@ -11,6 +11,7 @@ import anthropic
 from PIL import Image
 
 from src.config import settings
+from src.models.models import TranscriptionResult
 from src.ocr.image_processor import prepare_image_for_api
 from src.prompts.templates import (
     TRANSCRIPTION_PAGE_PROMPT_TEMPLATE,
@@ -39,7 +40,7 @@ class PageTranscriber:
         page_number: int,
         total_pages: int,
         document_title: str,
-    ) -> str:
+    ) -> TranscriptionResult:
         """Transcribe a single document page image using the Claude Vision API.
 
         Args:
@@ -49,8 +50,9 @@ class PageTranscriber:
             document_title: Human-readable document title for prompt context.
 
         Returns:
-            Transcription text in the original document language (Spanish).
-            Returns an error marker string if all retry attempts are exhausted.
+            TranscriptionResult containing the transcription text and the
+            number of input/output tokens consumed by the API call.
+            On failure, text contains an error marker and token counts are 0.
         """
         base64_data, media_type = prepare_image_for_api(image)
         page_prompt = TRANSCRIPTION_PAGE_PROMPT_TEMPLATE.format(
@@ -82,7 +84,11 @@ class PageTranscriber:
                         }
                     ],
                 )
-                return response.content[0].text
+                return TranscriptionResult(
+                    text=response.content[0].text,
+                    input_tokens=response.usage.input_tokens,
+                    output_tokens=response.usage.output_tokens,
+                )
 
             except anthropic.RateLimitError:
                 wait_seconds = settings.RETRY_DELAY_SECONDS * attempt
@@ -91,7 +97,15 @@ class PageTranscriber:
 
             except anthropic.APIError as error:
                 if attempt == settings.RETRY_ATTEMPTS:
-                    return f"[TRANSCRIPTION ERROR — page {page_number}: {error}]"
+                    return TranscriptionResult(
+                        text=f"[TRANSCRIPTION ERROR — page {page_number}: {error}]",
+                        input_tokens=0,
+                        output_tokens=0,
+                    )
                 time.sleep(settings.RETRY_DELAY_SECONDS)
 
-        return f"[TRANSCRIPTION FAILED — page {page_number}: all {settings.RETRY_ATTEMPTS} attempts exhausted]"
+        return TranscriptionResult(
+            text=f"[TRANSCRIPTION FAILED — page {page_number}: all {settings.RETRY_ATTEMPTS} attempts exhausted]",
+            input_tokens=0,
+            output_tokens=0,
+        )
