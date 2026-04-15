@@ -63,9 +63,6 @@ pip-delete-this-directory.txt
 # PROJECT-SPECIFIC
 # =============================================================================
 
-# OCR pipeline outputs (transcriptions, JSON results)
-outputs/
-
 # Source PDF documents (potentially sensitive municipal records)
 assets/docs/*.pdf
 
