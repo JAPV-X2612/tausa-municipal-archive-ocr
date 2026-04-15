@@ -151,7 +151,7 @@ class TranscriptionPipeline:
 
         print(f"\n✅ Done — {pages} page(s) transcribed.")
         print(f"   Tokens    → input: {total_in:,}  |  output: {total_out:,}")
-        print(f"   Est. cost → ${estimated_cost:.4f} USD")
+        print(f"   Estimated Cost → ${estimated_cost:.4f} USD")
         if save_json:
             json_path = self._repository.resolve_json_path(pdf_path)
             print(f"   JSON      → {json_path}")
