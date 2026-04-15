@@ -23,9 +23,9 @@ class TranscriptionRepository:
 
     _TXT_SEPARATOR: str = "─" * 70
     _HEADER_TEMPLATE: str = (
-        "TRANSCRIPCIÓN OCR — {document_title}\n"
-        "Municipio de Tausa, Cundinamarca, Colombia\n"
-        "Modelo: {model} | DPI: {dpi}\n"
+        "OCR TRANSCRIPTION — {document_title}\n"
+        "Municipality of Tausa, Cundinamarca, Colombia\n"
+        "Model: {model} | DPI: {dpi}\n"
         "{separator}\n"
     )
 
@@ -60,7 +60,7 @@ class TranscriptionRepository:
 
         for page in result.processed_pages:
             lines.append(f"\n{self._TXT_SEPARATOR}")
-            lines.append(f"PÁGINA {page.page_number}")
+            lines.append(f"PAGE {page.page_number}")
             lines.append(f"{self._TXT_SEPARATOR}\n")
             lines.append(page.transcription)
             lines.append("")
