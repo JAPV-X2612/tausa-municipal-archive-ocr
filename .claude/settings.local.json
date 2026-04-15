@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(ls -la F:/HS_AMT/tausa-municipal-archive-ocr/.env*)"
+      "Bash(ls -la F:/HS_AMT/tausa-municipal-archive-ocr/.env*)",
+      "Skill(claude-api)"
     ]
   }
 }
