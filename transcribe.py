@@ -7,6 +7,7 @@ facade. Responsible only for argument parsing and validation — no business log
 Usage:
     python transcribe.py --pdf assets/docs/tausa_alcaldia_despacho_alcalde_1953_1954.pdf
     python transcribe.py --pdf assets/docs/tausa_alcaldia_despacho_alcalde_1953_1954.pdf --pages 1-3
+    python transcribe.py --pdf assets/docs/tausa_alcaldia_despacho_alcalde_1953_1954.pdf --pages 1,3,5
     python transcribe.py --pdf assets/docs/tausa_alcaldia_despacho_alcalde_1953_1954.pdf --json
 """
 
