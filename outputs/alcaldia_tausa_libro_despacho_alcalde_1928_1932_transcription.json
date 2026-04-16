@@ -1,0 +1,730 @@
+{
+  "source_file": "assets\\docs\\tausa_alcaldia_libro_posesiones_1928_1932.pdf",
+  "document_title": "Tausa - Libro de Posesiones 1928-1932",
+  "model": "claude-sonnet-4-6",
+  "total_pages": 103,
+  "processed_pages": [
+    {
+      "page_number": 1,
+      "transcription": "[ilegible] [ilegible] 1928\nLibro de posesion del —\nEmpesados = al 1932\n= ol\n\nDESPACHO\nALCALDE\n\nNº 3\n\nCaja 5",
+      "processing_time_seconds": 5.4,
+      "input_tokens": 1857,
+      "output_tokens": 59
+    },
+    {
+      "page_number": 2,
+      "transcription": "En Tausa a primero de Enero de mil no\nventa, Se presento al despacho de la Alcaldia [ilegible]\nel Señor Ananias Rodriguez P. con el obj[eto]\nmar posesion del Cargo de recaudador de [ilegible]\nMunicipales, de gran nombramiento [ilegible]\n[ilegible] presentó [ilegible] fecho de hoy emanado\ndejo Municipal. Acto continuo el S[eñor]\nle recibió juramento en forma leg[al]\npor tal promesa, Cumplir bien\nlo [ilegible] los Deberes de Su Cargo [ilegible]\n[ilegible] firma Como aparece.\n\nEl Alcalde\n\n[ilegible: Castelloo]\n\nAnanias Rodriguez\n\n[ilegible: JEuug]\n[ilegible]\n\nEn Tausa, a [ilegible] de Enero d[e]\n[los] veinte treinta... Se presento",
+      "processing_time_seconds": 8.76,
+      "input_tokens": 1857,
+      "output_tokens": 251
+    },
+    {
+      "page_number": 3,
+      "transcription": "para que fue nombrado. Vara constancia firma esta diligencia como aparece. = Subrayado = veinli- Anulado - no\nvale.\n\n(Luis Fco. García)\n\n(Victor Manuel [ilegible: Losoch])                    J. Enrique Olhayas\n                                                                         [ilegible: vou]\n\nEn Tausa a veintidos de Enero de mil novecientos treinta, comparecio al Juzgado de la\nAlcaldia el Sor Crisanto Achauri con el\nfin de tomar posesion del Cargo de agente de policia de la vereda de El Salitre, segun nombramiento de fecha 17 de los corrienActo continuo el Sor Alcalda le recibio juramento en forma legal, y ofrecio cumplir\nbien y fielmente con los deberes\ndel Cargo para que fue nombrado.\nY uso constancia firman. = Subrayadodo - no vale \n(Luis Fco. García)\n\nCrisanto Achauri\n\n                                                         J. Enrique Olhayas\n                                                                  [ilegible: vou]\n\nEn Tausa a veintidos de Enero de mil",
+      "processing_time_seconds": 10.74,
+      "input_tokens": 1857,
+      "output_tokens": 329
+    },
+    {
+      "page_number": 4,
+      "transcription": "Novecientos treinta. Compareció al Despacho de\nla Alcaldía el Señor Jacobo Bello, con el fin\nde tomar posesión del cargo de agente de\npolicía de la vereda de Panamá alto, se\ngun Decreto Nº de fecha 13 de los corrientes.\nActo continuo el Señor Alcalde le recibió\njuramento en forma legal, ofrecio cumplir bien y fielmente con los deberes de\nsu cargo para que fue nombrado.\nPara constancia Firma.\n\nEl Alcalde\n\n[firma: Aníco Garrido]\n\nJacobo Bello g\n\n[firma]\n                                                        Enrique Playa\n                                                             Ntco.\n\nEn Tausa a veintitres de Enero de mil\nnovecientos treinta. Compareció al despacho\ndel Juzgado el Sr. Benjamín Rodríguez, con\nel fin de tomar posesión del Cargo de Inspecto de policía de El Salehe. según nombramiento de fecha 22 de los corrientes. Acto continuo el Señor Alcalde le recibió juramento en\nforma legal, Ofreció bien buena Cumplir bien\ny fielmente con los deberes de su Cargo.\nPara constancia firma. Como [ilegible].\n\n[firma: Aníco García]\n\n                                                        Benjamín\n[firma: Enrique Playa]                    Rodríguez\n         Ntco.",
+      "processing_time_seconds": 11.47,
+      "input_tokens": 1857,
+      "output_tokens": 392
+    },
+    {
+      "page_number": 5,
+      "transcription": "En Tausa a veintitres de Enero de mil novecientos treinta, se presento al despacho de la Alcaldia la Señora Ana Celia M. de Guema, con el fin de tomar posesion del Cargo de directora Maestra de niñas de este lugar, segun nombramiento de fecha 17 de los Corrientes emanado de la direccion de educacion publica. Acto continuo el Señor Alcalde le recibio juramente en legal forma. Oficio bien bueno cumplir fiel y fielmente con los deberes del Cargo para que fue nombrada y para constancia firma como aparece.\n\n[ilegible: Jm] Fco. Garcia\nAna Celia M. de Guema.\n\nEnrique Hayab\n[ilegible: pus]\n\nEn el Municipio de Tausa a veinti­tiocis de Enero de mil novecientos treinta, se presento en el Despacho de la Alcaldia el Señor Luis J. Canillo, con el fin de tomar posesion del Cargo de Personero Municipal de este Municipio para que fue nombrado por el Concejo en sion de fecha primero de Diciembre del año pasado, segun oficio 2 de la misma fecha, Advir­tiendo que no se pudo presentar mas antes a tomar posesion del Cargo por estar enfer­mo como le consta al Personal de es-",
+      "processing_time_seconds": 11.6,
+      "input_tokens": 1857,
+      "output_tokens": 358
+    },
+    {
+      "page_number": 6,
+      "transcription": "la Alcaldía. El Señor Alcalde previas las formalidades legales le recibió juramen to al Señor Canillo y por su gravedad ofreció desempeñar bien y fielmente con los deberes del cargo para que ha sido nombrado. En constancia se firma las presente diligencia como aparece.\n\n[ilegible: Luis] [ilegible: del] García [ilegible]\n\nLuis J. Canillo\n\nT. Enrique Nayas\n[ilegible: sino]\n\nEn Tausa a veintiocho de Enero de mil novecien tos [ilegible]; compareció al despacho de la Alcaldía el S. Pedro Castro con el fin de tomar posesion del cargo de agente de policía de primero [ilegible] [ilegible: siguiendo] nombrándolo el señor ministro de los [ilegible: conciente] Acto continuo el Señor Alcalde le recibió juramen to en legal forma. Ofreció [ilegible: con someter] para cum plir bien y fielmente con los deberes del Cargo Para Constancia firma.\n\n[ilegible: Luis] 4°° García [ilegible]\n\nAmego de Pedro Castro:\nAnatolio [ilegible: Cassis]",
+      "processing_time_seconds": 13.35,
+      "input_tokens": 1857,
+      "output_tokens": 318
+    },
+    {
+      "page_number": 7,
+      "transcription": "En Tausa a veintiocho de Enero de\nEnero de mil novecientos treinta, compa\nreció en el despacho de la Alcaldía D[on]\nDomingo Malaret, con el fin de tomar\nposesión del Cargo de Agente de Policí[a]\nde la Vereda del [ilegible: Jalilel], según nombra\nmiento que le fue comunicado. El Señor\nAlcalde le recibió juramento en legal\nforma por el Cual ofreció Cumplió\nbien y fielmente en los deberes del Cargo.\nPara Constancia forma esta diligencia\ncomo aparece.\n\n[Firma: ilegible] García\n\nAmigo de Domingo Malaret.\n[Firma:] Roberto Rodríguez\n\n[Firma:] Enrique Playas\n[ilegible: Para] [ilegible]\n\nEn Tausa a veintinueve de Enero de mil\nnovecientos treinta, se presentó en el Despacho de\nla Alcaldía el Señor Wenceslao Rojas con el\nfin de tomar posesión del Cargo de agente de\nPolicía, Para que fue nombrado por\nDecreto Nº 1 de fecha trece del presente. El\nSeñor Alcalde previas las formalidades\nlegales le recibió juramento y por su gravedad\nofreció cumplís bien y fielmente con los deberes\nde su cargo para que ha sido nombr[ado]",
+      "processing_time_seconds": 11.34,
+      "input_tokens": 1857,
+      "output_tokens": 374
+    },
+    {
+      "page_number": 8,
+      "transcription": "1do. En constancia se firma esta diligencia\ny como aparece.\n\n[ilegible: Luis/Pco] Garcia\n\nMercedes Roys\n\nJ Enrique Playas\nPuo [ilegible]\n\nEn Tausa a 1º de Enero de 1930.\nComparecio al despacho [ilegible] Alcaldia el auxiliar\nliano Riano con el fin de tomar posesion del cargo\nde agente de policia de Paramo [ilegible]. El Sr. Alcal\nde lo recibio juramento y por su gracias oficio deci\nrulo y los promete con malicia a cumplir\nbien y fielmente con los deberes del Cargo. Para\nque fue nombrado. En constancia firman Como\nAparece. = Subrayado dice valer y no [ilegible]\nQue malicia = no vale.\n\n[ilegible: Luis/Pco] Garcia\n\nRoguto [ilegible] Auxiliar Riciano\n\nLuis Bello\n\nEnrique Playas\nPuo [ilegible]\n\nEn Tausa a primero de Julio de mil no\nvecientos treinta y Comparecio al despacho",
+      "processing_time_seconds": 10.21,
+      "input_tokens": 1857,
+      "output_tokens": 297
+    },
+    {
+      "page_number": 9,
+      "transcription": "de la Alcaldía el Sr. Jeronimo Rojas, con\nel fin de tomar posesión del Cargo de Aguel\nde la renta del Paramo bajo, y del Curbo de\nnaule el dia de las elecciones. Segun\nnombramiento de fecha 22 de Enero\nproximo pasado. Acto Continuo el\nSr. Alcalde le recibio juramento en for\nma legal, y Suio dió resal y no pro\ncoul con malicia e injusto Cumepali\nbrio y fielmente los Deberes del Car\ngo de para Constancia fir\nmaron = Subscrabo precio urio resal\ny no puede Con lmalicia e im\npust no vale.\n\n[ilegible: Aufrco] Garcia\n\nJeronimo Rojas\n\nEnrique Playas\nSeró [ilegible]\n\nEn el Municipio de Tausa, a tres de Febrero de\nmil novecientos treinta, se presentó en el Despacho de la\nAlcaldía el Señor Daniel Murcia con el fin de tomar\nposesión del Cargo de Agente de Policia del Munici\npio para que fue nombrado por Decreto Nº 1\nde esta Alcaldía y de fecha troce de Enero proximo pasa\ndo. El Señor Alcalde previas las formalidades le",
+      "processing_time_seconds": 11.92,
+      "input_tokens": 1857,
+      "output_tokens": 348
+    },
+    {
+      "page_number": 10,
+      "transcription": "gales le recibió juramento y por su gravedad ofreció\ncumplir bien y fielmente con los deberes del\ncargo para que ha sido nombrado. En cons\ntancia se firma esta diligencia Como aparece.\n\nLuis [ilegible: Veo-]García\n\nA ruego de Daniel Murcia, Edilberto Bello B.\n\nEnrique Playas\nSrio.\n\nEn Tausa a tres de Febrero de mil novecien\ntos treinta se presentó en el Despacho de la Alcaldía\nel Señor Timóleo Ramírez con el fin de tomar posesión\ndel Cargo de agente de Policía para que fue nom\nbrado por Decreto Nº 1 de trece de Enero próximo pasado.\nEl Señor Alcalde previas las formalidades legales\nle recibió juramento y por su gravedad ofreció cum\nplir bien y fielmente con los deberes de su cargo. En\nConstancia se firma esta diligencia, Como aparece.\n\nLuis [ilegible: Veo-]García\n\n· Timóleo Ramírez\n\nEnrique Playas\nSrio.\n\nEn Tausa a Seis de Febrero de mil novecien\ntos treinta, se presentó en el Despacho de la Alcaldía\nel Señor Pedro Rodriguez O. con el fin de tomar pose",
+      "processing_time_seconds": 10.07,
+      "input_tokens": 1857,
+      "output_tokens": 347
+    },
+    {
+      "page_number": 11,
+      "transcription": "ción del cargo de agente de policía para que fué\nnombrado en Decreto de [ilegible] [ilegible] pasado. El Dño\nAlcalde previas las formalidades legales le recibió\njuramento y por su gravedad ofreció cumplir bien\ny fielmente con los deberes del cargo para que\nha sido nombrado. En Constancia se firma esta\ndiligencia como aparece.\n\n[firma]\n\nPedro Rodriguez o\n[rúbrica]\n\nEmanuel [ilegible]\n[ilegible] [rúbrica]\n\nEn el Municipio de Tausa a ocho de\nFebrero de mil novecientos treinta, se pre\nsentaron en el Despacho de la Alcaldía llos\nciudadanos, que en seguida y en su orden\nse mencionan nombrados por el Jurado Elec\ntoral para integrar los Jurados de Votación\nNumeros 1, 2 y 3, en las elecciones que se\nverificarion mañana para elegir Presidente\nde la Republica con el fin de tomar po\nsesion de su cargo, asi:\n\nJurado Nº 1.\n\nPrincipales                                    Suplentes\nJuan Domingo Silva                    Trinidad Rodriguez\nSamuel Forero                           Domingo Balbléu\nVictor Mª Forero                        Abel Rincón",
+      "processing_time_seconds": 12.38,
+      "input_tokens": 1857,
+      "output_tokens": 338
+    },
+    {
+      "page_number": 12,
+      "transcription": "Principales .                    Suplentes .\nAdolfo Nieto                         Reyes Rodriguez\nNepomuceno Juarez                    Roberto Sanchez\ny\nPrincipales    Jurado Nº 2º          Suplentes\nHerachio Robayo                          Robeto Rodrigu[ilegible]\nCarlos Julio Cortes                  Edilberto Bello [ilegible]\nHeladio Rubayo                       Herachio Rodriguez\nAntonio Maria Sanchez                Luis Antonio Bello\nPablo Antonio Acuña                  Ananias Rodriguez\n\n                    Jurado Nº 3.\n\nPrincipales                          Suplentes\nEustacio Arevalo                     Pedro Contreras\nGabriel Sanchez                      Martiniano Guerrero\nLuis Mª Ahumador                     Arsenio Ospina\nCampo E. Rodriguez                   Francisco A. Rodriguez\nCenon Sancho[ilegible]               Jose Rubayo.\n\n            El señor Alcalde previas\nlas formalidades legales le recibió juramen\nto a los nombrados y por su gravedad\nofrecieron desempeñar bien y fielmente con los deberes\ndel cargo para que han sido nombrados.\n   En Constancia se firma esta diligencia como\naparece.\n\n            El Alcalde, [ilegible: Juanfco Garcia]\n\n[ilegible: Pablo Antonio Acuña]        [ilegible: Uldor Manuel Creech]\nEdilberto Bello B.\nGabriel Sanchez                      Arsenio Ospina",
+      "processing_time_seconds": 12.75,
+      "input_tokens": 1857,
+      "output_tokens": 387
+    },
+    {
+      "page_number": 13,
+      "transcription": "Ananias Rodriguez      Cenon Sanchez\n\neladio Nieto    Campo Rodriguez P.\n\n[ilegible: Wblanche]\n\nAbel Rincon\nLuis M. [ilegible: atanador]\n\nRoberto Rodriguez\n\nAdolfo Nieto\n\nRoberto Sanchez\nSamuel Romero Jr.\nGustavo [ilegible: Herindoy]\n\nPedro Contreras\n[ilegible: B] Reyes Rodriguez [ilegible: R.]\n\n[ilegible: J.] [ilegible: Caminos] Silva\n\nMartiniano Guerrero\n\nHeraclio [ilegible: Tobay]\n\nCarlos Julio Curtado",
+      "processing_time_seconds": 6.73,
+      "input_tokens": 1857,
+      "output_tokens": 163
+    },
+    {
+      "page_number": 14,
+      "transcription": "Francisco H. Rodriguez\n——————\nNepomuceno Suárez\n\nJ. Enrique Playa[ilegible]\n[ilegible]\n\nEn Tausa, a quince de [ilegible: Julio] de mil novecientos [ilegible: treinta], compareció al Juzgado de la Alcaldía el Señor [ilegible: Cesario] Vargas, con el fin\nde tomar posesión del cargo de Director de\nla Banda Municipal de este lugar, presentó\ncomo Credencial el oficio N.º 20 de fecha\nde hoy. Acto continuo el h. la Alcalde le recibió juramento en forma legal. Ofreció decir verdad y no proceder [ilegible: cumplir] bien y [ilegible: fielmente] con los deberes del\nCargo. Para constancia firma como\naparece:\n\n[Firma: Juan Fco García]\n\n[ilegible: Cesáreo] Vargas\n\nJ. Enrique Playa[ilegible]\n[ilegible]\n\nEn Tausa, a primero de [ilegible: Marzo] de 1930\nCompareció al Juzgado de la Alcaldía el [ilegible: Evan-]\nEvangelista Playa con el fin de tomar posesión del Cargo de Agente portero de la [ilegible: Presa-]\nfte \"[ilegible: El Salibe]\". Acto continuo el[la] Alcalde le recibió juramento en forma legal,",
+      "processing_time_seconds": 12.6,
+      "input_tokens": 1857,
+      "output_tokens": 402
+    },
+    {
+      "page_number": 15,
+      "transcription": "[ilegible: Ofrecio cumplirlo bien] y fielmente con los deberes\ndel Cargo para constancia firma. En\naparece.\n\n[Firma: Juní [ilegible] García]\n\nE. Bargota Moya\n\n[ilegible: Enrique] Mayas\n[ilegible: año]\n\nEn Tausa, a veintinueve de Marzo de mil novecientos treinta, Comparecio al despacho de la Alcaldía el Señor Jose Castro Con el fin de tomar posesión del Cargo de agente de policía, segun decreto\nNº 4 de fecha de [ilegible: hoy]. Acto continuo el Señor Alcalde le recibio Juramento para cumplir bien y fielmente con los deberes del\nCargo. Para Constancia firma.\n\n[Firma: Luis A[ilegible] García]\n\nJosé C. Castro [ilegible]\n[ilegible: Enrique] Mayas\n[ilegible: Junio]\n\nEn Tausa a treinta de Marzo de mil\nnovecientos treinta, se Presento en el Despacho\nde la Alcaldía el Señor Servio Palomares con\nel fin de tomar posesión del Cargo de Inspector\ny Jefe de Trabajos y de las Construcciones Escolares\nde la vereda de Paramobajos. El Señor Alcalde\nprevias las formalidades legales\nle recibió Juramento y por su gravedad",
+      "processing_time_seconds": 12.47,
+      "input_tokens": 1857,
+      "output_tokens": 384
+    },
+    {
+      "page_number": 16,
+      "transcription": ",ofreció cumplir bien y fielmente con los deberes\nde su cargo. (Decreto Nº 5 de aju). En\nconstancia se firma esta diligencia cmo aparece\n\n[ilegible: Luis/Juan Rodríguez/García]\n\n— Severo Palomares\n\nJ Enrique Mayas\n[ilegible: prio]\n\nEn el Municipio de Tausa a treinta y\nuno de Marzo de mil novecientos treinta se\npresentó en el Despacho de la Alcaldía el Señor Ricardo Bejarano con el fin de tomar posesión del cargo\nde Colector de Rentas de este Municipio para que fué\nnombrado por Resolución Nº 12 de la Notitaduría del\nCírculo de Ubalé, según oficio Nº 76 de 28 de lo\ncorriente procedente de tal oficinas. El Señor Alcalde pre\nvias las formalidades legales le recibió juramento\ny por su gravedad ofreció cumplir bien y fielmente\ncon los deberes de su cargo. En constancia se\nfirma esta diligencia Como aparece.\n\n— R. Bejarano S. [ilegible: Luis/Juan Rodríguez/García]\n\nJ Enrique Mayas\n[ilegible: prio]",
+      "processing_time_seconds": 10.71,
+      "input_tokens": 1857,
+      "output_tokens": 342
+    },
+    {
+      "page_number": 17,
+      "transcription": "En Tausa a Veintitres de Mayo de mil novecientos treinta, se presentó al Despacho de la Alcaldía el Sr. Rafael Tierra Con el fín de tomar posesión del Cargo de Agente de policía de la Vereda de Páramo bajo Continuó el Susrito Alcalde lo recibio Juramento en legal forma y Ofreció Cumplir bien y fielmente Con los deberes del su Cargo y para Constancia firman Carlos y aparece.\n\nJuu Fco. García\n\nAmego de Rafael Tierra\n\nLuis A Bello\n\nEnrigue Mayes\nDino [ilegible]\n\nEn Tausa a treinta y uno de Mayo de mil Novecientos treinta, Comparecio al Despacho de la Alcaldía el Señor Armando Aduen Con el fín de tomar posesión del Cargo de Comisario de la Vereda de El Salitre A lo Continuo el Susrito Alcalde le recibió Juramento en legal forma y Ofreció Cumplir bien y fielmente Con los deberes del Cargo. Para Constancia firma J. Cumo aparece.\n\nJuu Fco. García",
+      "processing_time_seconds": 10.0,
+      "input_tokens": 1857,
+      "output_tokens": 306
+    },
+    {
+      "page_number": 18,
+      "transcription": "Crisanto Achurí                    Enrique Playas\n                                              [ilegible]\n\nEn Pausa, a ocho de Junio de mil\nnovecientos treinta Comparecio al\ndespacho de la Alcaldía. los Senores Seve\nro Palomares y Pedro Infante con\nel fin de tomar posesión del Cargo\nde Inspector de policia y aquél de las\nMultas de prisana bajo y pasaron al\nlo respectivamente. Acto Continuo\nel Susrito alcalde lo recibio juramen\nen persona legal Miniú - Cumplir\nhur y fielmente Cuatro deberes del\nCargo; para Constancia firma\nCumo. aparece.\n\n[firma] Luis [ilegible: Aco] Garcia\n\nRogado de Pedro Infante\nJosé [ilegible] Castro sq.\n\nSevero Palomares                    Enrique Playas\n                                              [ilegible]\n\nEn el Municipio de Tausa a veintiunco\nde Junio de mil novecientos treinta se pre\nsentó en el Despacho de la Alcaldía la Señora\nDolores Camargo con el fin de tomar posesión\ndel en interinidad del Cargo de Telegrafista ac-",
+      "processing_time_seconds": 11.3,
+      "input_tokens": 1857,
+      "output_tokens": 322
+    },
+    {
+      "page_number": 19,
+      "transcription": "ministradora de Correos de este lugar para que fue\nnombrada por Decreto Nº 980 de fecha 21\ndel presente del Ministerio de Telégrafos.- Persona,\nAcuyo telegrama Nº 3511 dirigido a este despacho\ncon fecha 21 del presente. El Señor Alcalde\npor ante el infrascrito Secretario le recibió ju\nramento en legal forma y por cuya gravedad\nprometió cumplir fiel y lealmente con los\ndeberes del Cargo Vale que ha sido nom\nbrada. En Constancia firma junto con\nlos suscritos Alcalde y Secretario.\n     El Alcalde,\n\n                    Jorge Tutti[ilegible: Arguiz]\n\n               Dolores Camargo.\n\n                                   Enrique [ilegible: Playa]\n                                        [ilegible]\n\nEn el Municipio de Tausa,\ná primero de Agosto de mil novecientos treinta, en esta fecha se presentó en\nel Despacho de la Alcaldía el Señor Euceborgio Niones, con el fin de tomar posesión\ndel Cargo de Juez Municipal, primer suplente paso que fue nombrado segun\nnombramiento emanado del Concejo Mupal\ny marcado con el Nº 37, que presentó\ncomo en[ilegible: strinsado]. El S. Alcalde lo recibió juramento en forma legal; prometió cumplir bien y fielmente con\nlos deberes del Cargo. Para constancia\nfirma    [ilegible: Celino]\n                              ezpa -",
+      "processing_time_seconds": 14.5,
+      "input_tokens": 1857,
+      "output_tokens": 413
+    },
+    {
+      "page_number": 20,
+      "transcription": "ace en seguida\n\n[ilegible: Luis] [ilegible: Leo] Ganán\n\nEustorgio Torres\n\nEnrique Mayab\nSecio\n\nEn el Municipio de Tausa a siete de Agosto de\nmil noveciento Treinta, se presentó en el Despacho de la\nAlcaldía el Señor Felix Rincón con el fin de tomar posesión del Cargo de Alcaide de las Cárceles Municipales, Por interinidad por el termino de un mes para que\nfué nombrado por Decreto Nº 9 de fecha de ayer.\nEl Señor Alcalde previa las formalidades legale\nle recibió juramento y por su gravedad ofreció cumplir\nbien y fielmente con los deberes del Cargo para que\nha sido nombrado. En Constancia se firma\nesta diligencia como aparece.\nEl Alcalde\n\n[ilegible: Luis] [ilegible: Leo] Ganán\n\nFelix Rincón\n\nEnrique Mayab\nSecio",
+      "processing_time_seconds": 11.95,
+      "input_tokens": 1857,
+      "output_tokens": 268
+    },
+    {
+      "page_number": 21,
+      "transcription": "Tausa, Agosto veinteinco de mil novecientos treinta, en esta fecha se presento al\nDespacho de la Alcaldia, el Señor Campos E. Rodriguez, con el fin de tomar posesion del\nCargo de Juez Municipal de este lugar, para que fue nombrado por el Consejo Municipal\n[ilegible] para el periodo de mil novecientos treinta a mil novecientos treinta y uno. Cuunto Como Ordenicid el Certificado expedito por\nel Señor Juez 1º del Circuito de Ubaté en el cual\nconsto haber otorgado la fianza correspondiente. Acto continuo el suscrito Alcalde le recibio Juramento en legal forma, prometio cumplir bien y fielmente con los deberes del\nCargo para que fue nombrado. Para constancia firma esta diligencia. Conmigo\n\nnce.\n                                    El Alcalde,\n\n                        [ilegible: Luis/Luís] [ilegible: Leo] Garcia\n\n                    Campos Rodriguez [ilegible: P.]\n\n                        Enrique [ilegible: Mayas]\n                              [ilegible: Drió] [ilegible]\n\nEn Veintesiete de Agosto de mil\nnovecientos treinta, se presento al\nDespacho de la Alcaldia el Señor [ilegible: Clinio]\n[ilegible] Rodriguez, con el fin de tomar",
+      "processing_time_seconds": 13.4,
+      "input_tokens": 1857,
+      "output_tokens": 388
+    },
+    {
+      "page_number": 22,
+      "transcription": "posión del Cargo de Inspector de policía de la\nvereda de \"páramo bajo\" para que fue nombrado Segun Comunicación que pone\nde presente de fecha 26 de los Corrientes.\nActo Continuo el suscrito Alcalde les recibio Juramento en forma legal, por\nel Cual Ofrecia Cumplir bien y fielmente\nCon los deberes de Su Cargo. Para Constancia firmaron como aparece.\n\nEl Alcalde\n\n[ilegible: Mulfeo] Garcia\n\nTrinidad Rodriguez\n[ilegible: Enrique] [ilegible]\n\nEn Tausa, a primero de Septiembre de\nmil novecientos treinta, se presentaron al\nDespacho de la Alcaldía la Señora Wilhelmina\nV. de Vicina y la Señorita Ana Placida Viniela, Con el fín de tomar posesión, la\nprimera de la escuela Departamental de\n\"la Martina\" y la Segunda de la escuela\nrural Municipal de paramo bajo\nSegun nombramiento hecho por la\nGobernación Decreto 359 de fecha 1° de\nAgosto. Acto Continuo el les recibio Juramento en forma legal, y ofrecieron\nCumplir bien y fielmente Con los\ndeberes del Cargo y para Constancia\nfirman Como aparece.\n\n[ilegible: Gor] Garcia\nEl",
+      "processing_time_seconds": 13.6,
+      "input_tokens": 1857,
+      "output_tokens": 367
+    },
+    {
+      "page_number": 23,
+      "transcription": "Alcalde,\nLuis Fco García\n\nAna Jacinto Pinillos\nWilhelmina W. de Pinilla\n\nEnrique Hleyas\n[ilegible]\n\nEn Tausa a [ilegible] de Sept. de mil novecien\ntos [ilegible], Se presentó al Despacho de la\nAlcaldía el Señor Rubén Rodríguez, con el\nfín de tomar posesión del Cargo de\nagente de policía de la vereda de [ilegible:para]una bajo seguro nombramiento de fech\n[ilegible] de los corrientes. Acto continuo\nel suscrito Alcalde le recibió juramento en\nlegal forma, ofrecia cumplir bien y fiel\nmente con los deberes de su Cargo y\npaso constancia firma como aparece\n\nEl Alcalde,\n\nLuis Fco Gar[cía]\n\n[ilegible: Pregado] de Rubén Rodríguez\nTrinidad Rodríguez\n\nEnrique Hleyas\n[ilegible]",
+      "processing_time_seconds": 9.43,
+      "input_tokens": 1857,
+      "output_tokens": 269
+    },
+    {
+      "page_number": 24,
+      "transcription": "En Tausa, a Veinte de Septiembre de\nmil novecientos treinta, se presentó al Despacho\nde la Alcaldía el Señor Felix Rincón, con\nel fin de tomar posesión del Cargo de agente de policía del Centro para que fue nombrado por Decreto Nº 196 fecha de hoy, y\nel nombramiento de la misma fecha. Acto Continuo el Suscrito Alcalde le recibio juramento en legal forma, Oficio diez hecho y\nsin proceder Con malicia e[ilegible] y pareiConstancia firma como Expende\n\nEl alcalde,\n\nFelix Rincón                    [ilegible: Luis/Juan] [ilegible: García/Rancón]\n\n                                              Enrique [ilegible: Mayor]\n                                              [ilegible]\n\nEn el Municipio de Tausa, a cuatro de\nOctubre de mil novecientos treinta, se presentó en el Despacho de la Alcaldía el\nSeñor Joselino González, con\nel fin de tomar posesión del Cargo de\nColector de Rentas de este Municipio para que\nfue nombrado por resolución Nº 28 de\nla Tesorería del Círculo de [ilegible: Ubaté], Según Oficio\n224 de fecha 30 de Sept. proximos pasado. Acto continuo el Suscrito Alcalde\nposesio las formalidades legales le recibio\nJuramento por el Cual Ofreció cumplir bien y\nfielmente Con los deberes del Cargo para que",
+      "processing_time_seconds": 13.43,
+      "input_tokens": 1857,
+      "output_tokens": 427
+    },
+    {
+      "page_number": 25,
+      "transcription": "fue nombato. Para cunstancia fio a\ntimo gracias.\n\nEl alcylde.\n\n[ilegible: Francisco] García\n\nJosélín González J[ilegible]\n\n[ilegible: Enrique] Playas\n[ilegible: Suc] [ilegible]\n\nEn Tausa a once de Octubre Re\nmil novecientos treinta, Comparecieron al\nDespacho de la Alcaldía los Señores Elasio\nTrabajo y Jorge Albulo García, con el\nfín de tofusar posesión del Cargo lo miem\nbros principales de la Junta especial que\nha de Revisar Catastralmente el Catastro de la propiedad raiz de este Municicipio. Presentaron como Credenciales los\nOficios No. 186 y 187 emanativos de la\nSecretaría de Gobierno Sección de Catastro de fecha ocho de los Corrientes, como\ntambién el Oficio N° 188 de la misma fela\ny entidad. Acto continuo el Suscrito Alcalde les recibio juramento en forma legal,\npor su gravidad, ofrecieron cumplir\nbien y fielmente cun los deberes del Cargo. Para constancia firmaron esta\ndiligencia, una vez imspuestlos de los deberes",
+      "processing_time_seconds": 12.53,
+      "input_tokens": 1857,
+      "output_tokens": 345
+    },
+    {
+      "page_number": 26,
+      "transcription": "que tienen, de Ventar Con el Secretario,\ntodas y Cada una de las fincas ubicadas en esta Jurisdicción.\n\nEl Alcalde,\n\n[ilegible: Quintrea García]\n\nPlacido Robayo\n\nJose Albert Garcias\n\n[ilegible: Enrique Mayos]\n[ilegible: Ruís]\n\nEn Tausa, a doce de Octubre de\nmil novecientos treinta se presentaron en\nel Despacho de la Alcaldía los Señores\nFlorentino Garagrín y Antonio Olcado, Con El fin de tomar posesión del\nCargo de Comisario de policía de la vereda\ndel Rangata y agente de policía del Duclo\nrespectivamente. Según nombramiento por decreto N.º 12 de 12 de los\nCorrientes. Acto Cumplieron el susoito Alcalde les recibió juramento\ny por Su gravedad y ofrecieron\nCumplir bien y fielmente Con los\ndeberes del Cargo. Para constancia\nfirman.\n\nEl Alcalde,\n\n[ilegible: Quinteo García]",
+      "processing_time_seconds": 11.65,
+      "input_tokens": 1857,
+      "output_tokens": 293
+    },
+    {
+      "page_number": 27,
+      "transcription": "Florentino Garzón\n\n[ilegible: Bared] [ilegible: Albar]d[ilegible]\n\nEnrique Nayas\n[ilegible: simo]\n\nEn Tausa, a seis de Noviembre de mil novecientos treinta, se presentaron en el Despacho de la Alcaldía los Señores Samuel [ilegible: Porcu], Benyamin García, Luis F. Canillo, Eduardo El Rodri[guez], y Pedro V. Robayo, miembros prin[cipales] que deben integrar el Jurado Electoral de este Municipio, y los Señores Victor M. [ilegible: Gracho], Abel Rincón, Domingo [ilegible: S.] Telvar[ilegible], Antonio Maria Sanchez y Francisco Antonio Rodri[guez],, miembros Suplentes Asimismo [ilegible: Jurados], con el fin de Tomar Posesión de su Cargo para que fueron nombrados por el Consejo Electoral de Cundinamarca, Según telegrama N.º 10 de ayer. El Señor Alcalde previas las formalidades legales les recibió Juramento y por Su Gravado ofrecieron desempeñar bien y fielmente con los deberes de Su Cargo. Para constancia firman en la diligencia, como borran.\n\nEl Alcalde\n\n[ilegible: Luis Beoligas]",
+      "processing_time_seconds": 13.32,
+      "input_tokens": 1857,
+      "output_tokens": 362
+    },
+    {
+      "page_number": 28,
+      "transcription": "cia Antonio [ilegible] Panela [ilegible]\n\nUriez Manuel [ilegible] Sansiro S. Rodrigues P.\n\nAbel Rinsan\n\nLuis S. Camilo\n\nBenjamín García\nFrancisco J. Rodríguez\nJ. Domingo Silva Samuel [ilegible: Guerrero] [ilegible]\n\nPedro [ilegible: Botayre]\n\nEnrique [ilegible: Hayale]\ndió\n\nEn Tausa, a veintitres de Noviembre de\nmil novecientos treinta, se presento al\nDespacho de la Alcaldía el Señor Gabriel\nAnyjola, con el fin de tomar posesiodel Cargo de Administrador de la Salina\nde este lugar, presento como Credencial\nel telegrama Nº 976 emanado del Ministerio de Hacienda en el cual se le\ncomunico el nombramiento. Co-mo\ntambien se tuvo de presente el tegrama\nNº 1185 del citado Ministerio. Acto\ncontinuo el Suscrito Alcalde lo recibio\nJuramento en legal forma y [ilegible]",
+      "processing_time_seconds": 11.91,
+      "input_tokens": 1857,
+      "output_tokens": 298
+    },
+    {
+      "page_number": 29,
+      "transcription": "ha guardad oficio cumplís bien y fielmen\nte Con los deberes del Cargo. Para cons\ntancia esta diligencia como aparece.\n\nEl Alcalde,\n\n[firma: Luis Leo García]\n\nGabriel Angola L.          Enrique [ilegible: Playa]s\n                                        Juro\n\nEn Tausa a veinte seis de Noviembre\nde mil novecientos treinta, se presentó al despacho de la Alcaldía el Señor Reyes Rodriguez\nRincon, Con el fin de tomar posesión\nde miembro Interino del Jurado Electoral\nde este lugar, Según Comunicación\nllegada a este Despacho del Consejo\nElectoral de Cundinamarca. Acto continuo el Suscrito Alcalde lo recibio Juramento en legal forma, ofreció cumplir bien y fielmente Con los deberes del Cargo y para Constancia\nfirma Como aparece.\n\nEl Alcalde\n\n[firma: Luis Leo García]\n\nJ. Reyes Rodriguez R.",
+      "processing_time_seconds": 10.63,
+      "input_tokens": 1857,
+      "output_tokens": 267
+    },
+    {
+      "page_number": 30,
+      "transcription": "En Tausa y a primero de Diciembre de mil\nnovecientos treinta, Compareció al Despacho\nde la Alcaldía el Señor Jesús Robayo, Con\nel fin de tomar posesión del Cargo de personero Municipal para el periodo que falta y el, que principia el primero de\nEnero próximo. Presentó como Credencial\nel Oficio Nº 45 en el cual el H. Concejo le\nComunica el nombramiento y se tuvo\nen Cuenta el Oficio Nº 46 procedente de\nla misma Corporación en el cual Comunicó a este Despacho dicho nombramiento.\nActo Continuo el Suscrito Alcalde\nle recibió Juramento en legal forma. Y por\nsu gravedad quiso cumplirlo bien y fué\nmentado con los deberes del Cargo. Para Constancia firma Como aparece.\n\nEl Alcalde,\n\n[ilegible: Aniceto García]\n\nJesús Robayo          Enrique [ilegible: Playa]\n                                    [ilegible: Srio]\n\nEn Tausa a seis de Diciembre\nde mil novecientos treinta, se presentó al Despacho de la Alcaldía\nla Señorita Isabel [ilegible: Martínez], Con",
+      "processing_time_seconds": 11.96,
+      "input_tokens": 1857,
+      "output_tokens": 354
+    },
+    {
+      "page_number": 31,
+      "transcription": "el fin de tomar posesión del\nCargo de Telegrafista Administrador de Correos de este lugar, intermadiante Acto Nº. 2016 emanado\ndel Ministerio de C. y D., que presentó como credencial. Sólo Continúo\nel suscrito Alcalde le recibió juramento en legar forma, ofreciéndo cumplir bien y fielmente con\nlos deberes del Cargo. Para constancia firma como aparece.\n\nEl Alcalde,\n\n[ilegible: Luis Fco. García]\n\nIsabel Martínez\n\nEnrique Playa[ilegible]\n[ilegible]\n\nEn Tausa, a uno de Diciembre de mil novecientos treinta, se presentó al Despacho de la\nAlcaldía el Señor Luis [ilegible: Ardent.], con el fin\nde tomar posesión del Cargo de Cartero de la\nOficina de Correos y Telégrafos de este Municipio, presentó como credencial el Oficio\n[ilegible] número de fecha de hoy en el\ncual Comunica a esta Oficina dicho nombramiento. Acto Continúo el suscrito Alca[ilegible]",
+      "processing_time_seconds": 11.61,
+      "input_tokens": 1857,
+      "output_tokens": 338
+    },
+    {
+      "page_number": 32,
+      "transcription": "á le recibio Juramento y por Su Gravedad\nprometio Cumplir, bien y fielmente Cuen\nlos deberes de Su Cargo Para Constan\ncia firma.\n\nEl [ilegible: Alcalde],\n\n[rúbrica] *Luis [ilegible: Leo] Garcia* [rúbrica]\n\nLuis Andrade\n\n[rúbrica] *Enrique [ilegible: Mayas]*\n*[ilegible: suio]*\n\nEn Tausa, a veintitres de Enero de Mil Nove\ncientos treinta y un, Se presento al Despacho de\nla Alcaldia el Señor Antonio M.ª [ilegible: Saiche] con\nel fin de tomar posesion del cargo de Secretario in\nterino de las alcaldia de este Municipio, segun\nnombramiento de fecha de hoy. Acto continuo\nel suscrito [ilegible: Alcalde] le recibio Juramento y por\nSu Gravedad prometio cumplir y bien y fielmen\nte con los deberes de su Cargo. Para Constan\ncia firma.\n\nEl Alcalde,\n\n[rúbrica] *[ilegible: Pablo] Antonio [ilegible: Alumad]*\n\n[rúbrica] *Pedro [ilegible: Robayol]* Antonio M.ª [ilegible: Saiche] [rúbrica]",
+      "processing_time_seconds": 13.76,
+      "input_tokens": 1857,
+      "output_tokens": 356
+    },
+    {
+      "page_number": 33,
+      "transcription": "En el Municipio de Tausa, a Veintitres de Enero\nde mil novecientos Treinta y uno, se presentó al\nDespacho de la Alcaldía el señor Cesáreo Bernal\ncon el fin de tomar posesión del cargo de agente de\npolicía Municipal, en virtud del nombramiento hecho\npor Decreto N° 2 de los corrientes. Acto continuo el suscrito Alcalde lo recibió juramento y por su gravedad prometio cumplir bien y fielmente con los deres de su cargo. Para constancia lo firma la presente diligencia como aparece.\n\nEl Alcalde,\n\n[ilegible: ValtoAntono Acimal]\n\nCesáreo Bernal\n[ilegible: J.H.Gauche?]\n\nEn el Municipio de Tausa a veintitres de\nenero de mil novecientos treinta y uno,\nse presentó a este despacho el Sr.\nLeónidas Forero R., con el fin de tomar\nposesión del cargo de Personero primer\nsuplente para que fue nombrado según comprobante número 54 del Presidente del Concejo municipal que para\nde presente. Acto Continuo el Alcalde\nle recibió juramento y por la gravedad\nprometio cumplir bien y fielmente con\nlas deberes de su cargo. Para constancia se firma como aparece.\n\nEl Alcalde, [ilegible: ValtoAntono Acimal]\nLeonidas Forero R.\n[ilegible: J.H.Gauche?]",
+      "processing_time_seconds": 11.62,
+      "input_tokens": 1857,
+      "output_tokens": 416
+    },
+    {
+      "page_number": 34,
+      "transcription": "En el municipio de Tausa, a veintiseis de enero de mil novecientos treinta y uno, se presentó en el despacho de la Alcaldía, el Sr. Victor M. Torres, con el fin de tomar posesion del cargo de Tesorero Municipal para que fue reelegido por el Concejo Municipal. Presenta como credencial el Oficio número 25 de fecho nueve de [ilegible: febrero] enero del presente mes de la contaduría del Departamento. El Alcalde le recibió juramento y por la gravedad de él prometió cumplir con los deberes del cargo para que que nombrado. En constancia firma como aparece.\n\nEl Alcalde, Pablo Anton. [ilegible: Acunal]\n\n[Firma: Victor M. Torres]          [Firma: [ilegible]]\n\nEn Tausa, a veintitres de enero de mil novecientos treinta y uno, se presentó en el despacho de esta oficina Gervasio Espitia con el fin de tomar posesión del cargo de Agente de Policia del municipio para que fue nombrado por decreto de esta misma fecha. El Alcalde le recibió juramento por el cual prometió cumplir con los deberes de su cargo fiel y fielmente. Para Constancia firma como aparece.\n\nEl Alcalde, Pablo Anton. [ilegible: Acunal]\n\n[Firma: Gervasio C. Espitia]          [Firma: [ilegible]]",
+      "processing_time_seconds": 11.02,
+      "input_tokens": 1857,
+      "output_tokens": 367
+    },
+    {
+      "page_number": 35,
+      "transcription": "En Tausa a treintaino de enero de mil novecientos treintaino se presentaron en el\ndespacho de la Alcaldía con el fin de tomar\nposesión del cargo de Jurados de votación\nnúmero 1 y número 2 de este lugar los siguientes\nseñores de acuerdo con los nombramientos que\nse les distribuyeron así:\n\nJurado de votación Número 1°\nPrincipales                    Suplentes —\nEnrique Olaya          Luis Porcro [ilegible: Imgón]\nAmadeo García         Pedro Pachón\nPascual Rodríguez     Edilberto Bello\nPedro León Castellanos    Pablo Posada\nNepomuceno Juárez    Ananías Rodríguez\n\nJurado de Votación número 2°\nPrincipales              Suplentes\nCarlos Julio Cortés    Gabriel Sánchez\nJulio Becerra           Domingo Baltén\nLuis María Truena      Cristóbal Torres\nJesús Robayo           Hipólito [ilegible: Huma]\nArturo Galvis B.       Lenón Sánchez —\n\nEl señor Alcalde les recibió juramento en\nforma legal y por el cual prometieron\ncumplir bien y fielmente con los deberes\ndel cargo para que fueron nombrados.\nEn pruestra de que este cargo es\nde forzosa aceptación, firman.\nComo aparece ante el Sr. Al,",
+      "processing_time_seconds": 11.89,
+      "input_tokens": 1857,
+      "output_tokens": 369
+    },
+    {
+      "page_number": 36,
+      "transcription": "Calde y su secretario.\n\nPablo Antonio Aama[ilegible]\n\nLuis J. Guerra C°\n\nJulio Bueno.\n\nArnaldo García [ilegible]\n\nLuis Ponce Pinzon\n\nCenon Sánchez          Hipolito Acuña\n\nAnanias Rodriguez.\n\nPedro Pachon\n\nPablo Posada\n\nPascual Rodriguez R.\n\nEdilberto Bello B.\n\nEnrique Mayas\n\nDomingo Vallés C[ilegible]\n\n[ilegible: Anastecia] Torres\n\nGabriel Sanchez\n\nCarlos Julio Cortes [ilegible]\n\nJesús Pelayo\n\n[ilegible] [ilegible]",
+      "processing_time_seconds": 6.92,
+      "input_tokens": 1857,
+      "output_tokens": 170
+    },
+    {
+      "page_number": 37,
+      "transcription": "En el Municipio de Tausa, a siete de Febrero de\nmil novecientos treinta y uno, se presentó al\nDespacho de la Alcaldía la Señorita Isabel Martinez con el fin de tomar posesión del cargo de\nTelegrafista de este Municipio, para que fue\nNombrada por Decreto N.º 2098 del Municipio\n[ilegible: Telégrafo] S. Acto continuo al Juramento Hecho,\nle idelió [ilegible: juramento] de cumplir bien y fielmente con los deberes del cargo para que\nha sido Nombrada. En constancia lo firma de presente diligencia como aparece.\n\nEl Alcalde,\n\nAlb. Anton. [ilegible: Carnal]\n\nIsabel Martínez\n\n[ilegible: A. W. Navide]\n[ilegible: mente]\n\n--\nEn el Municipio de Tausa a siete de Febrero\nde mil novecientos treinta y uno, se presentaron en este Despacho con el fin de tomar\nposesión de los cargos para que fueron\nnombrados así: Benjamín Bonilla y Nepomuceno [ilegible: Sierras] de los cargos de Inspectores de Policía de Paramobas y Paramota\nrespectivamente; Absalón García de agente\nde Policía de Paramobas; Roberto Forero y\nGustavo Contreras de agentes de Policía\nde Pajarito. El Sr. Alcalde les recibió juramento en legal forma, prometieron\npor la que es base de él, en cumplir\nbien y fielmente con los deberes",
+      "processing_time_seconds": 14.34,
+      "input_tokens": 1857,
+      "output_tokens": 441
+    },
+    {
+      "page_number": 38,
+      "transcription": "que les imponen los cargos para\nque fueron nombrados. Para constancia firman como aparece.\n\nEl Alcalde, [ilegible: Valbuehm Acuad]\n\nBenjamín Bonilla\n\nRoberto Torno\n\nRogado de Nepomuceno Sierra, Fermín O. Espitia\nAbsalón Garcia\n\n[ilegible: MpHauche]\n[ilegible: Sro. ante.]\n\nEn Tausa á diez y nueve de Febrero de mil nove\ncientos treinta y uno, se presentó en el despacho\nde la Alcaldía el Señor Pedro V. [ilegible: Pulayt] con el\nfin de tomar posesión del cargo de Secretario de la\nAlcaldía para que fue nombrado por decreto N.º 9\nde fecha diez y nueve del presente. El señor Alcalde previas las formalidades legales le recibió juramento y por su gravedad ofreció desempeñar bien y fielmente con los deberes que el cargo le impone,\npara que fue nombrado. En constancia firma como aparece.\n\nEl Alcalde, Eudoro Rodriguez\nPedro [ilegible: Pulayt]\n\n[ilegible: MpHauche]\n[ilegible: Sro. ad hoc]",
+      "processing_time_seconds": 11.49,
+      "input_tokens": 1857,
+      "output_tokens": 341
+    },
+    {
+      "page_number": 39,
+      "transcription": "en Tausa, a diez ysiete de febrero de mil\nnovecientos treinta yuno, se presentó en el\ndespacho de la Alcaldía el Sr. Enrique\nOlayac., con el fin de tomar posesión del\ncargo de Personero Principal para que que\nnombrado por el Concejo, para el período den\ncurso, en sesion del 15 del presente mes\nsegun oficio #57 que tuvo de presente.\nEl Sr. Alcalde le recibió juramento en forma\nlegal y por el cual prometió cumplir bien\nyfielmente con los deberes de su cargo.\nPara Constancia firmó como aparece.\n\nEl Alcalde\n\n[ilegible: Valtbntom. Acmal]\n\nEnrique Olayac\n[ilegible: Dedro Subaybc]\n\n--\nEn Tausa a veinte de febrero de mil nove\ncientos treinta y uno, se presentó en el Despa\ncho de la Alcaldía, la Señorita Bernarda\nTorres Martinez, con el fin de tomar posesión\ndel cargo de Directora de la Escuela rural de\npartamental de Sanamateo para que fue\nnombrada por Decreto el Nº 117 de fecha 19\ndel presente el que fue puesto de presente,\nemanado de la Dirección de Educación\npublica. El Señor Alcalde por ante y su\ncrito secretario, le recibió juramento y por",
+      "processing_time_seconds": 11.5,
+      "input_tokens": 1857,
+      "output_tokens": 364
+    },
+    {
+      "page_number": 40,
+      "transcription": "en granacias ofreció desempeñar bien y fiel\nmente cum los deberes del cargo para que\nfue nombrada. Para constancia se fir\nma esta diligencia como aparece.\n\nEl Alcalde,\nEudoro Rodríguez\n\nBernarda Torres M.\nPedro [ilegible: Piabayse]\n[ilegible: secr]\n\nEn Tausa, a veintischo de Octubre de mil\nnovecientos treinta y uno, se presento en el\nDespacho de la Alcaldía el señor Julio E. Torres\ncon el fin de tomar posesión del cargo de agen\nte de Policía de la Vereda de [ilegible: Roagatal], para que\nfue nombrado por esta Alcaldía en resolución\nde fecha 24 de los corrientes. El señor Al\ncalde por ante el presente secretario le recibió\njuramento en forma legal y fue en granacias\nofreció desempeñar bien y fielmente los deberes\ndel cargo para que fue nombrado. En cons\ntancia al firmar esta diligencia por los que\nen ella intervinieron.\n\nEl Alcalde,\nEudoro Rodríguez\n\nJulio Enrique Torres M.\nPedro [ilegible: Piabayse]\nsecr",
+      "processing_time_seconds": 10.56,
+      "input_tokens": 1857,
+      "output_tokens": 325
+    },
+    {
+      "page_number": 41,
+      "transcription": "En Tausa, a veintidós de febrero de mil novecientos treinta y uno, se presentó en el Despacho\nde la Alcaldía el Señor Gregorio de Jesus Prada a\nel fin de tomar posesión del cargo de agente de\nPolicía para que fue nombrado por Decreto\nde esta Alcaldía N.º 10 de fecha 27 del presente.\nEl Señor Alcalde por ante el suscrito Secretario, le\nrecibió juramento y por su gravesta [ilegible: aprecio] cumplirá fiel y fielmente con los deberes del cargo\npara que fué nombrado. En cunstancia, se\nfirma la presente diligencia por los que en ella\nintervinieron. entre=ungues. vereda de Paramohyo=o\nvale = El Alcalde, Endoro Rodríguez\n\nGregorio de          Jesús Prada\n\n                         Pedro [ilegible: Villayzpe]\n\nEn el Municipio de Tausa á doce de Marzo de mil novecientos treinta y uno se presentaron en el Despacho de la Alcaldía los\nSeñores Miguel Bernal y Isaaer Bello\ncon el objeto de tomar posesión del cargo\nde Agente de Policía del Centro para que\nhan sido nombrados; el Sr Alcalde por\nante ellos [ilegible: unpresentes] Secretario les recibió juramento y por su gravedad\nofrecieron cumplir fiel y honradamente con los deberes del cargo para\nque han sido nombrados y en constancia firmaron la presente diligencia",
+      "processing_time_seconds": 557.44,
+      "input_tokens": 1857,
+      "output_tokens": 421
+    },
+    {
+      "page_number": 42,
+      "transcription": "c+\n\ncomo aparece.\n\nEl Alcalde Eudoro Rodríguez\nMiguel Antonio Bernal\n\nYsaac Bello\n\nPedro [ilegible: Trabaje]\n\nEn el Municipio de Tausa á diez qui\nde marzo de mil novecientos treinta y uno\nSe presentaron en el Despacho de la\nAlcaldía los señores, Joaquin Torres, Luis\nAntonio Ahumado y Carlos Rojas con el\nobjeto de tómos posesión del cargo de Agen\ntes de Policia del municipio, el primero por\nel Termino de treinta dias por licencia de\nJeremias Torres. El Sr Alcalde por ante\nel suscrito Secretario los recibió jura\nmentó y por su gravedad prometieron\ndesempeños bien y honorablemente con los\ndeberes del cargo para que han sido\nnombrados y en constancia firman\nla presente diligencia como aparece.\n\nEl Alcalde\n\nEudoro Rodriguez\n\nCarlos Rojas\n\nRogado de Joaquin\nSenio [ilegible] C[ilegible]\nLuisantonio Ahumada\nPedro [ilegible: Torres]",
+      "processing_time_seconds": 11.92,
+      "input_tokens": 1857,
+      "output_tokens": 295
+    },
+    {
+      "page_number": 43,
+      "transcription": "Marzo diez y nueve de mil no\nvecientos trienta y uno. Se pre\nsentaron en el Despacho de lo al\ncaldio las Señoritas Ana Flaceila y Wilhe\nmina Pinillos con el objeto de tomar po\nsesion del cargo de Directoras de los Es\ncuelos Rural Departamental de lo Marti\nna y Rural Aluminado de Paramo bo\njo Respectivamente. El Sr. Alcalde por an\nte el inaporcito Secretario los recibió ju\nramento y por su gravedad prometie\nron desempenar fiel y honradamente\nlos deberes del cargo para que han si\ndo nombrados y su constanencia pri\nman la presente diligencia como\naparece.\n\nEl Alcalde, Eustoro Rodriguez\n\nAna Flaceila Pinillay\n\nWilhelmina Pinillu\n\nPedro [ilegible: Profayob]\n\nEn Tausa a veintinueve de Marzo de mil nove\ncientos treinta y uno, se presentó en el Despacho\nde la Alcaldia el señor Biliario Rodriguez, con\nel fin de tomar posesion del cargo de comisario\nde policia de la vereda de Pueblo viejo, para que\nfue nombrado por Decreto de esta Alcaldia de\nfecha veinticinco del presente.\nEl señor Alcalde por ante el ausento\nSecretario le recibió juramento y por su gra",
+      "processing_time_seconds": 13.72,
+      "input_tokens": 1857,
+      "output_tokens": 361
+    },
+    {
+      "page_number": 44,
+      "transcription": "neras ofrecia cumplir bien y fielmente con los\ndeberes del cargo para que fue nombrado, Pa\nra constankied se firma la presente diligencia\npor los que en llla intervinieron.\n                    El Alcalte,\n                              Eusebio Rodríguez\nBelisario Rodriguez\n      [ilegible]\n                              Pedro [ilegible: Pulupol]\n                                    [ilegible]\n\nEn Tausa a 1º de Abril de mil novecien\ntos treinta y uno el suscrito Secretario de la\nAlcaldía habiendo sido encargado del Despacho\nde la alcaldía por telegrama Numero 971 de\nfecha de ayer emanado de la secretaria de Gobier\nno y por licencia concedida al alcalde Señor\nEusoro Rodriguez y estando el Juzgado Muni\ncipal cerrado por hoy en la presente semana.\n     El suscito toma posesion ante los\ntestigos Gabriel Sanchez y Miguel Antonio\nBernal, por l ante quienes prestó el jura\nmento de cumplir bien y fielmente con los debe\nres del cargo para que ha sido nombrado.\nPara constancia se firma la presente dili\ngencia por los que en ella intervinierou.\n\n                    Pedro [ilegible: Pulupol]\nGabriel Sanchez\n      [ilegible]                Miguel Antonio Bernal\n                                          [ilegible]",
+      "processing_time_seconds": 11.9,
+      "input_tokens": 1857,
+      "output_tokens": 363
+    },
+    {
+      "page_number": 45,
+      "transcription": "En el Municipio de Tausa á trece de\nAbril de mil novecientos treinta y uno\nPresentó en el Despacho de la Alcaldía\nlos señores Eliceo Torres y\nLuis Athanasio Rodríguez y Jesús Parada\ncon el objeto de tomar posesión del\ncargo de agentes de policía de los vere\ndas de Baduagrande, Páramo bajo y Sa\nbaueque respectivamente; el Sr Alcaldé\npor ante el infrascrito Secretario, les re\ncibió juramento y por su gravedad\nprometieron desempeñar fiel y honrada\nmente los deberes del cargo para que\nhan sido nombrados y en constancia\nfirmaron como agente.\n\nEl Alcalde\nEudoro Rodríguez\n\nLuis A. Rodríguez\n\n[ilegible: firma]\n\nJesus Parada          Pedro [ilegible: Toboyte]\n\nEn el Municipio de Tausa á quince de\nAbril de mil novecientos treinta y uno, pre\nsentó en el Despacho de la Alcaldía el Sr\nLeonides Brino con el objeto de tomar pose\nsión del cargo de Miembro a la Junta\nde Instrucción Pública del Municipio nom\nbrado por el Sr Inspector de la 5ª Junu",
+      "processing_time_seconds": 11.43,
+      "input_tokens": 1857,
+      "output_tokens": 340
+    },
+    {
+      "page_number": 46,
+      "transcription": "El Sr Alcalde por ante el inproscrito Secretario le recibio juramento y por su gravedad prometio desempeñar fiel y honradamente los deberes del cargo para que ha sido nombrado y en constancia firma como aparece.\n\nEudoro Rodriguéz\n\nLeonidas Forero R.\n\n[ilegible] Pedro P[ilegible: Robayo]\n\n\"En el Municipio de Tausa á diez y ocho de Abril de mil novecientos treinta y uno Presento el Sr Gustavo Ahumada En el Despacho de la Alcaldia, con el objeto de tomar posesion del cargo de Agente de policia de la vereda de Paramo alto, el Sr Alcalde por ante el inproscrito Secretario, le recibio juramento y por su gravedad opmio desempeñar fiel y honradamente los funciones del cargo para que ha sido nombrado y en constancia firma como aparece\n\nEl Alcalde\nEudoro Rodriguez\n\nGustavo Ahumadas\nPedro P[ilegible: Robayo]",
+      "processing_time_seconds": 9.54,
+      "input_tokens": 1857,
+      "output_tokens": 271
+    },
+    {
+      "page_number": 47,
+      "transcription": "En el Municipio de Tausa a nueve de Abril\nde Mil novecientos treinta, Se presentaron\nen el Despacho de la Alcaldía los Ciudadanos, que en seguida y en orden de efpresa\nnombrados por el Jurado Electoral y para\nintegrar e los Jurados de Votación Numeros\n1.º, 2.º y 3.º, en la eleccion, que se verificara\nmañana para Representante al Congreso.\nPor el fin de tomar posesion de su cargo.\nAsí:\n\nJurado N.º 1.º\n\nPrincipales                          Suplentes\nLuis [ilegible] Garcia               Domingo Ballen\nJulio Becerra                        Luis J. Pinton\nPascual Rodriguez                    Eustario Arevalo\nNolbommimo Chian                     Hipolito Peña\nJulio C. Castellanos                 Pedio [ilegible] Castellanos\n\nJurado N.º 2.º\n\nEnrique Payo                         Carlos Julio Cortes\nLuis Felipe Guma                     Edilberto Bello\nEustorgio Torres                     Gregorio Garcia A.\nEmilio Sainche[z]                    [ilegible] Antonio Robayo\nJoselin Gonzalez                     Arturo Galvez\n\nJurado N.º 3.º\n\nPedro Pachon                         Amadeo Garcia\nEladio Robayo                        Framidas [ilegible]\nRoberto Robinfer[?]                  Gregorio Garcia\nAdolfo Nito                          Meario Bello\nPablo Posada                         José Robayo\n\nEl Señor Alcalde previas\nlas formalidades legales les recibio Juramento",
+      "processing_time_seconds": 15.71,
+      "input_tokens": 1857,
+      "output_tokens": 447
+    },
+    {
+      "page_number": 48,
+      "transcription": "to a los Nombrados y por Su gravedad oficiaron desempeñan bien y fielmente con\nlos deberes del Cargo para que han sido Nombrados. En constancia se firma la presente\ndiligencia como avance.\n\nEl Alcalde.\n\nEudoro Rodríguez\n\nPedro J. Castellanos U.\n\nLeonidas Forero R.\n\nJulio Castellanos U.\n\nJulio Guerra.\n\nGregorio Garcia C.\n\n[ilegible: Eustacio] [ilegible: Tirado].\n\nDomingo Ballén C.\n\nBenin Sánchez\n\nJosé Rolan[ilegible]\n\nRoberto Rodríguez [ilegible]          Miguel Heyo[ilegible]\n\nEladio Moloro\n\nPablo Posada          Gregorio García[ilegible]\n\n[ilegible] co [ilegible: García]",
+      "processing_time_seconds": 9.25,
+      "input_tokens": 1857,
+      "output_tokens": 222
+    },
+    {
+      "page_number": 49,
+      "transcription": "Nicasio Bello          Lucio Vachon\n\nLuis Gomes Pinzón\n\n                              Carlos Julio Cortés B.\nNepomuceno Suarez\n\nPascual Rodriguez R.     Marco A. Robayo\n\n              Anto. Fabio Bonilla\nEustorjo Jenes\n\n         Edilberto Bello B.\nAmado Garcia a.\n\n              Luis F. Guerra C.\nPedro Tibaque\n\nEn el Municipio de Tausa, á veinticinco de\nmayo de mil novecientos treinta y uno, se\npresentó en el Despacho de la Alcaldía el Sr.\nBuenaventura Torero con el objeto de tomar posesión del cargo de Comisario de Policía de la\nvereda de Pajarito segun Decreto de esta misma fecha.; el Sr. Alcalde por ante el infrascrito Secretario lo recibio juramento y por su\ngravedád ofreció [ilegible] debidamente\ngil y honradamente los funciones del cargo\npara que ha sido nombrado y en constancia\nfirmó. como aparece.\n\n                    El alcalde\n                              Eudoro Rodriguez\nBuenaventura Torero\n                                        Pedro [ilegible]",
+      "processing_time_seconds": 12.22,
+      "input_tokens": 1857,
+      "output_tokens": 320
+    },
+    {
+      "page_number": 50,
+      "transcription": "En Tausa a primero de Junio de mil novecien\ntos treinta y uno, se presentó en el Despacho\nde la Alcaldía el Señor Manuel Ramirez G.\ncon el objeto de tomar posesión del cargo de\nTelegrafista en interinidad de este Municipio\npor licencia concedida a la Señorita Sadie\nMartinez y para que fue nombrado por de\ncreto nº 2942 de fecha 29 de mayo del corriente\naño. El Señor Alcalde por ante el suscrito\nSecretario le recibio juramento y por su\ngravera vperio desempeñar fiel y honra\ndamente con los deberes de su cargo. Para\nconstancia se firma la presente diligenː\ncia como aparece.\n\nEl Alcalde\n\nEudoro Rodriguez\n\nManuel Ramirez G.\n\nPedro [ilegible]\n\nEn el municipio de Tausa, a primero\nde Junio de mil novecientos treinta y uno\nse presentó en el Despacho de la Alcaldia\nla Señorita Julia Elisa Rodriguez R.\ncon el objeto de tomar posesión del\ncargo de Directora de las Escuelas Ru\nral Departamentales de \"La Machina\"\nde este municipio; el Sr Alcalde por\nante el suscrito Secretario en virtud\ndel Decreto Nº 284, del 26 de mayo proxi\nmo pasado, de la Gobernación que\nlos empleados puso de posesión, le re",
+      "processing_time_seconds": 13.47,
+      "input_tokens": 1857,
+      "output_tokens": 388
+    },
+    {
+      "page_number": 51,
+      "transcription": "cibio juramento en forma legal y\npor su gravedad ofreció desempeñar bien y honradamente las funciones del cargo para que ha sido\nnombrado y en constancia firma\ncomo aparece por ante los infrascritos Alcalde y Secretario,\nEl Alcalde\nEudosio Rodriguez\n\nJulia Elisa Rodriguez d[ilegible]\n\nPedro P[ilegible: Pubyul]\n\n--\nEn Tausa a quince de junio de mil\nnovecientos treinta y uno, se presentó en\nel Despacho de la Alcaldía el señor Víctor Manuel Monro R. con el fin de tomar\nposesión del cargo de Recaudador de Hacienda Nacional de este municipio para\nque fue nombrado por la Administración\nde Hacienda Nacional en telegrama\nNº 1838 de fecha ocho de Mayo de mil\nnovecientos treinta y uno. El señor alcalde por ante el suscrito Secretario le recibio juramento y por su gravedad ofreció\ndesempeñar fiel y honradamente en los\ndeberes del cargo para que fue nombrado.\nEn constancia se firma la presente\ndiligencia como aparece. El",
+      "processing_time_seconds": 12.61,
+      "input_tokens": 1857,
+      "output_tokens": 317
+    },
+    {
+      "page_number": 52,
+      "transcription": "Alcalle, Eudoro Rodriguels\n\nTuly Manuf [ilegible]\n\nPedro T. [ilegible: Tabayre]\n\nEn el Municipio de Tausa á once de Julio\nde mil novecientos treinta y uno presenti en\nel Despacho de la Alcaldia el Sr. Jesus Palacio\ncon el objeto de tomar posesion del cargo de\nAgente de Policia en reemplazo del Policia\nGeremios Torres segun Decreto Nº 17 de ahu proba\nEl Sr. Alcalde le recibio juramento y por su\ngravedad prometio desimpeñas bela y hon\nradamenti los funciones del cargo y en\nconstancia firmo con los infraellos Al\ncalde y Secretario.\n\nEudoro Rodriguels\n\nJesus Palacios\n\nPedro T. [ilegible: Tabayre]\n\nEn Tausa, a primero de Agosto de mil no\nvecientos treinta y uno, se presentaron al des\npacho de la Alcaldia el Señor Enrique [ilegible: Diay]\ncon el fin de tomar posesion del cargo de\nJuez Municipal para el primer [ilegible] en\ncarzo, para que fue nombrado por el Ho\nnorable Consejo Municipal. Exercio com[o]",
+      "processing_time_seconds": 12.43,
+      "input_tokens": 1857,
+      "output_tokens": 334
+    },
+    {
+      "page_number": 53,
+      "transcription": "Credencial el certificado del Juzon pez, primero del circuito, en que consta que [ilegible] prestó la fianza legal correspondiente a distatacción de ese juzgado. El señor Alcalde por\nante el suscrito Secretario le recibió juramento\ny por su gravedad ofrecio desempeñar fiel\ny honradamente con las obligaciones su cargo\npara constancia firma como aparece.\n\nEl Alcalde\n\nEudoro Rodriguez\n\nEnriques Haya\n\nPedro Vivaras\n[ilegible: ano]\n\nEn Tausa a primero de Agosto de mil novecientos treinta y uno, se presentó en el Despacho de la Alcaldia el señor Luis [ilegible: Telarillo], con el fin de tomar posesión del\ncargo de Tesorero Municipal, para\nque fue nombrado por el Honorable Concejo Municipal. Presenta como credencial\nel oficio Nº 21 de fecha 13 de Julio del corriente año presidente del Concejo Municipal en que se le comunica su nombramiento. El señor Alcalde por ante el suscrito Secretario les recibió juramento y por\nsu gravedad ofrecio desempeñar fiel y\nhonradamente las deberes del cargo para\nque fue nombrado. Para constancia",
+      "processing_time_seconds": 12.58,
+      "input_tokens": 1857,
+      "output_tokens": 363
+    },
+    {
+      "page_number": 54,
+      "transcription": "firma como aparece entre líneas — para el\nresto del perito en cuero vale.\n\nEl Alcalde, Eudoro Rodríguez\n[ilegible: Camillo]\nPedro Trabajé[ilegible]\n\nEn Tausa a primero de Agosto de mil nove\ncientos treinta y uno, se presentó en el Despa\ncho de la Alcaldía el Señor Eladio Noboa,\ncon el fin de tomar posesión del cargo fue\n1° suplente para el perito legal en cáras\nque fue nombrado por el Concejo Munici\npal. Exhibio como credencial el oficio nº 29\nde fecha 13 de julio del corriente año, emanado\ndel Concejo Municipal, en el cual se le co\nmunica su nombramiento. El señor\nAlcalte por ante el inscriro Secretario le re\ncibio juramento y por su gravedad ofreció\ndesempeñar fiel y honradamente los deberes\ndel cargo para que fue nombrado. En cons\ntancia se firma la presente diligencia\ncomo aparece.\n\nEl Alcalte,\nEudoro Rodríguez\nEladio Noboa [ilegible]\n\nPedro Trabajé[ilegible]\n\nEn el Municipio de Tausa á diez y sie\nde Agosto de mil novecientos treinta y uno",
+      "processing_time_seconds": 12.49,
+      "input_tokens": 1857,
+      "output_tokens": 344
+    },
+    {
+      "page_number": 55,
+      "transcription": "Se presento en el Despacho de la Alcaldía el\nSr Belizario Castillo con el objeto de tomar posesion del cargo de Agente de policia al\nque ha sido nombrado para\nDesde de fecha de hoy. el Sr Alcalde por\nante el infrascrito Secretario le recibio juramento y por su gravedad ofreció desempeñar bien y fielmente los deberes del cargo para que ha sido nombrado y en\nconstancia firma la presente diligencia como aparece.\n\nEl alcalde,\nEudoro Rodriguez\n\nBelizario Castillo\n\nPedro [ilegible: Trabajo] C.\n\nEn el municipio de Tausa á diez y seis de Agosto de mil novecientos treinta y uno, se presento en el Despacho de la Alcaldía el Sr Jose Robayo con el objeto de tomar posesion del cargo\nde Inspector de Policia del Municipio; en consecuencia el Sr Alcalde por ante el infrascrito Secretario, le recibio juramento, el que presto en legal forma y por su gravedad prometio desempeñar bien y honradamente los\ndeberes del cargo para que ha sido nombrado y en constancia firma la presente diligencia como aparece.\n\nEl Alcalde\nEudoro Rodriguez\n\nJose Robayo",
+      "processing_time_seconds": 10.87,
+      "input_tokens": 1857,
+      "output_tokens": 365
+    },
+    {
+      "page_number": 56,
+      "transcription": "El Secretario de la Alcaldía,\n                                        Julio Piedrapé [ilegible]\n\n      En el Municipio de Tausa á nueve de\nSeptiembre de mil novecientos treinta y\nuno; presenté en el Despacho de la Alcaldía\nel Sr Jeremias Torres, con el objeto de tomar\nposesión del cargo de Agente de Policias\ndel Cauho, el Sr Alcalde por ante el in\nporseibo Secretario le recibio juramento\ny por su guardad opudio arenpse\nfinos pil y honradamente los jenerís\nnos del cargo para que que nombrosolo,\nen constilución firmo como agracele\njunto con el Sr Alcovle y Secretario\n                    El Alcovole,\n                    Eudoro Rodriguez\n\n                    Jeremias Torres\n\n      En el Municipio de Tausa, á veinticino\nde Septiembre de mil novecientos treinto y uno\nSe presentó en el Despacho de la Alcaldía\nel Sr Julio Castillo con el objeto de tomar\nposesión del cargo de Agente de Policía de\nla Vereda de Laduagralute para que ha si\ndo nombrado por Decreto de dicho mismo\nfecha. El Sr Alcalde por ante el infracci\nto Secretario, le recibio juramento y por\nsu guardad opuciol arenypeáto bien",
+      "processing_time_seconds": 12.1,
+      "input_tokens": 1857,
+      "output_tokens": 357
+    },
+    {
+      "page_number": 57,
+      "transcription": "y fielmente los deberes del cargo para\nque ha sido nombrado y en constancia\nfirmo como aparece.\n\nEl Alcalde.\nEudoro Rodriguez\n\nJulio Castillo\n\nEn el Municipio de Tausa, á veintitres de Sep\ntiembre de mil novecientos treinta y uno: Se\npresentó el Sr Luis Alfonso Paez en el Despacho\nde la Alcaldía con el objeto de tomar pose\nsion del cargo de Recaudador de la Aduana\nlla del \"Aguasal\" de este municipio como\nconstó del nombramiento hecho por la Junta\nCentral de Caminos de Ubaté de fecha 25 del\npresente mes, Nº 127. En virtud de él, el Señor\nAlcalde por ante el infrascrito Secretario\nle recibio juramento y por su gravedad\nofreció desempeños bien y honradamente\nlos deberes del cargo para que ha sido\nnombrado y en constancia firmo la\npresente diligencia como aparece.\n\nEl Alcalde.\nEudoro Rodriguez\n\nLuis. A. Paez",
+      "processing_time_seconds": 10.3,
+      "input_tokens": 1857,
+      "output_tokens": 277
+    },
+    {
+      "page_number": 58,
+      "transcription": "En el Municipio de Tausa á tres de Octubre de\nmil novecientos treinta y uno, Se presentaron en\nel Despacho de la Alcaldía los ciudadanos que\nen seguida y en su orden se expresa, nombrados\npor el Jurado Electoral, para integrar los Jurados de\nVotación Nº 1º y 2º para las Elecciones que ten\ndrán lugar mañana cuatro del presente para Con\ncejeros Municipales, con el fin de tomar posesion\nde su cargo así:\n\n          Jurado Nº 1º\n          Principales                              Suplentes\nLuis F. García                          Cesario Vargas\nCarlos Julio Cortés B.          Gregorio García A.\nPedro Pachón                          Luis F. Pinzón\nPablo Posada.                          Canyo Elias Rodgz F.\nNicacio Bello                          José D. Rodríguez\n\n          Jurado Nº 2º\n          Principales                              Suplentes\nEulogio Torres                        Leonidas Fauro\nJulio Becerra.                         Climaco Sánchez\nEdelbulí Bello                        Jacobo Fauro Ryos\nCesori Sanchez                       Ruben Mantillo\nHijeclito Bueno                      Juan de la Cruz Bello.\n\n     El Sr. Alcalde por ante el suscrito Secre\ntario y previos los formalidades legales les re\ncibió juramento y por su gravedad prometieron\ndesempeños fiel y honradamente los deberes del\ncargo para que han sido nombrados y en con\ntancia firman como aparece.\n\n                              El Alcalde,\n                         Eudoro Rodríguez\n     Juan Climaco Sánchez",
+      "processing_time_seconds": 14.41,
+      "input_tokens": 1857,
+      "output_tokens": 451
+    },
+    {
+      "page_number": 59,
+      "transcription": "Edilberto Bello B.\nNicasio Bello\n\nLeonidas Forero R\nPedro Sachón\nCarlos Julio Cortés R.\nPablo Posada\n\n[ilegible: Julio Neo García]\n\nJulio Bui[ilegible]\nJacobo Forero R.\n\nLuis Enrio P.\nCesareo M[ilegible: Vargas]\nHipólito Acuña\n\nEustorgio [ilegible: Lopes]\nRubin Mantilla U.\n\nPedro [ilegible: Forayor]\n\nEn Tausa a dos de Octubre de mil novecien\ntos treinta y uno, se presento en el despacho de\nla Alcaldía el Señor Antonio Marhia [ilegible: Gamche],\ncon el fin de tomar posesion del cargo de Se\ncretario de la Alcaldía para que fué nombra\ndo por decreto nº 22 de esta Alcaldía.\nEl Señor Alcalde le recibio juramento y por\nsu gravedad y precio desempeñar fielmente",
+      "processing_time_seconds": 10.97,
+      "input_tokens": 1857,
+      "output_tokens": 275
+    },
+    {
+      "page_number": 60,
+      "transcription": "los deberes del cargo para que fue nombrado.\nPara constapeda, se firmó los presente diligencia por los que en ella intervinierom.\n\nEl Alcalde,\nEudoro Rodriguef\n\n[firma: M. Sánchez]\n\nPedro Pimbayul\n\n--\nEn Tausa, a diez y [ilegible: dois] de [ilegible] de Abril\nde mil novecientos treinta y [ilegible], Compareció\nen las Oficinas de la Alcaldía Municipal\nel Señor Carlos R. Plaza, Con el objeto\nde tomar posesión del cargo de Secretario\ndel Despacho, para que fue nombrado por\nDecreto Nº 23 de hoy, y Comunicado por\nMedio de oficio Nº [ilegible] de las firmas\n[ilegible]. Este virtud el Alcalde lo recibió\nJuramento en la forma legal, y por Su\n[ilegible] prometió Cumplir fiel y puntualmente [ilegible] el cual Cobro y entender en\nlos labores del mismo. En Constancia se firma la presente diligencia Como firmece,\n\n[firma: A. Cu...]\nCarlos R. Plaza.\n\nPedro Pimbayul\n[ilegible: sec. ad hoc]",
+      "processing_time_seconds": 12.01,
+      "input_tokens": 1857,
+      "output_tokens": 329
+    },
+    {
+      "page_number": 61,
+      "transcription": "En Tausa a trienta de Octubre de milnovecientos trianta y uno, Comparecieron en el despacho de la Alcaldía Municipal, los Señores\nJulio Castellanos y Ramón Sánchez, Con el objeto\nde tomar posesión del Cargo de miembros de la\nJunta Municipal de Control de Alimentos para\nque fueron Nombrados por la Gobernación segun Comunicación telegráfica del Señor Secretario de Gobierno de fecha diez y seis del presente. En tal virtud, Se les recibe el Juramento\nlegal y por Su promesa prometieron Cumplir\nfiel y fielmente, Segun la cual Saber y atender Con los deberes de Su Cargo. En Constancia\nSe firma Como aparece.\n\nJulio [ilegible: Castellanos] R.\n\nC. R. [ilegible: Plaza]\n[ilegible: Srio.]",
+      "processing_time_seconds": 10.17,
+      "input_tokens": 1857,
+      "output_tokens": 247
+    },
+    {
+      "page_number": 62,
+      "transcription": "Nº 61\n\n[ilegible] en Tausa Diciembre 4 de 1931\n\n[ilegible] y [ilegible] es\n\nSeñor\n\nAlcalde Municipal\n\n[ilegible] E. J. [ilegible] [ilegible]\n\n[ilegible] [ilegible] [ilegible]\n\nAtentamente me dirijo a Vbd para\nque se digne concederme licencia para se\npararme del puesto de Telegrafista Admira\nCorreos de este lugar, por el Termino de o\ncho dias, dejandolo como reemplazo y ba\njo mi responsabilidad al Señor [ilegible]\nAvila.\n\nMotivos urgentes de salud obligan\nme a ello. Así mismo le ruego\ndar aviso al Ministerio de Correos y Telégra\nfos.\n\nAnticipandole mis agradecimien\ntos quede de Vbd Atta. S.S.\n\nIsabel Martinez C.\n\n[SELLO: OFICIO — REPÚBLICA DE COLOMBIA — TELEGRAFOS — DE TAUSA]\n\nRecibido y al Despacho, hoy, Diciembre cuatro de mil novecientos treinta y\nuno. Carlo Jr. Plaza.\n\n[ilegible]\n\nAlcaldía Municipal.\n\nTausa, Diciembre cuatro de mil novecientos treinta y uno.\n\nComo se pide, por la Señorita Administradora de Correos y Telégrafos de este\nlugar, Señorita ISABEL MARTINEZ C., concédeselo la licencia de ocho dias so\nlicitada, dejandose encargado de la Oficina en referencia al Señor LUIS F. A\nVILA, bajo la responsabilidad de la solicitante.",
+      "processing_time_seconds": 13.92,
+      "input_tokens": 1857,
+      "output_tokens": 443
+    },
+    {
+      "page_number": 63,
+      "transcription": "Comuníquesele al Señor AVILA y désele posesión, dando cuenta al Señor Ministro de Correos y Telégrafos.\n\nCúmplase,\n\n[ilegible: Mymit Conmaltha]\n\nCarlo R. Plaza\n\nEn Oficios Números 151 y 152 de hoy, cuatro de Diciembre se comunicó lo anteriormente ordenado, y por Oficio No. 153 se le dió cuenta al Señor Ministro dicho.\n\nCarlo R. Plaza\nStrio.",
+      "processing_time_seconds": 6.58,
+      "input_tokens": 1857,
+      "output_tokens": 140
+    },
+    {
+      "page_number": 64,
+      "transcription": "Secretaría Gobierno\n\nREPUBLICA DE COLOMBIA\n\nTELEGRAFOS NACIONALES\n\n1931—Imp. Nacional—Bogotá.\n\nCalidad del despacho Of/\nNº [ilegible]\n\n| Número original | Palabras | Valor | Hora de introducción | Hora de recibo | Emple[ado] |\n|---|---|---|---|---|---|\n| | 15 | 18 | 19 | M[ilegible] |\n\nBogotá 16 de Octubre de 19[ilegible]\n\nSeñor\n\nAlcalde\n\nTausa\n\nNombaronse miembros\nJunta Control alimentos,\nSeñores Julio Castellanos, Ce\nnon Sanchez. Sírvase comu\nnicarles, posesionarlos exí\njales actividad.\n\nCarlos Suarez Latorre.\n\n[ilegible] hoy [ilegible] se [ilegible] que\n[ilegible] —[ilegible]\nC. E. Plaza.\n—[ilegible].\n\nMedida Municipal\nTausa, Octubre [ilegible]\n\n[SELLO: ALCALDÍA MUNICIPAL — TAUSA]",
+      "processing_time_seconds": 10.87,
+      "input_tokens": 1857,
+      "output_tokens": 298
+    },
+    {
+      "page_number": 65,
+      "transcription": "[ilegible: Perto.] de Tuil novecientos treintay uno Próxime a [ilegible] [ilegible: lnº]\ntinas [ilegible: jubelCastillmos] y Casiro [ilegible: Lim-]\nchez, miembros de la [ilegible: Junta] de [ilegible: Cmte]\n[ilegible: Valienntro] de [ilegible: nte] [ilegible: Lugar] por [ilegible: ac-]\nse refiere el [ilegible: Jefe] con el [ilegible: jalesto]\n[ilegible: legouarconmbles] y [ilegible: lenfle] [ilegible: Comien-]\ndo y los labores [ilegible: Se ha] [ilegible: Grima]\n[ilegible: deCunfor]mi[ilegible: lne] Con [ilegible: bro] [ilegible: dropo-]\n[ilegible: Steigntes] [ilegible: emanales] debe [ilegible: ha] [ilegible: Grai-]\nternos.\n\n[ilegible: Quaplane]\n[ilegible: Hlmm]\n\nC. de Plaza.\nSecrs.\n\nOctubre 18.- Se ofició bajo la [ilegible: Nros] 97\ny 98, a [ilegible: JubelCastillmos] y [ilegible: Casiro Lim-]\ndez, respectivamente, [ilegible: Gonza] que [ilegible: Con-]\n[ilegible: Grrma] - [ilegible: nte] [ilegible: dpindho] el [ilegible: Lunes] 19 a las\n10 a. m.—\n\nC. R. Plaza.\nSecrs.",
+      "processing_time_seconds": 13.14,
+      "input_tokens": 1857,
+      "output_tokens": 478
+    },
+    {
+      "page_number": 66,
+      "transcription": "En Tausa, a Cinco de Diciembre de\nmil novecientos treinta y uno, estando presente en el Despacho el Señor Luis J. [ilegible]\nCon el objeto de tomar posesion del Cargo\nde Administrador de Correos y Telégrafos\nde este lugar para que fué nombrado por\ndisposición de la Alcaldia de este Municipio\nfecha y Comunicada en oficio Nº 101. En\ntal virtud el Alcalde por ante Su Secretario\nle recibió Juramento en la forma legal y\nbajo el gravamen prometió Cumplir bien y fielmente desem peñar dicho Deber y atender Con\nla lealtad de su Cargo. En Constancia se\nfirma Como aparece.\n\n[ilegible: Reconocemos] [ilegible] [ilegible]\nLouis J. [ilegible: Chila]\n\nCarlos R. [ilegible: Alarcon]\n\nEn Tausa a diez de Diciembre de mil\nnovecientos treinta y uno, se presentó en el\nDespacho de la Alcaldia, el señor Manuel\nEnero [ilegible: Timg] con el fin de tomar posesion del\ncargo de Secretario interino de éste Despacho para que fué nombrado por D.P. Nº 25\nde ésta misma fecha. En tal virtud el\nSeñor Alcalde le juramento en forma legal\ny bajo su gravamen ofreció Cumplir bien\ny fielmente en los deberes del cargo para que fué nombrado. En constancia\nse firmó la presente diligencia.",
+      "processing_time_seconds": 12.57,
+      "input_tokens": 1857,
+      "output_tokens": 420
+    },
+    {
+      "page_number": 67,
+      "transcription": "que se firma como aparece.\nEl Alcalde,\n\nCarlo R. Playa.\n[ilegible: Interino]\n\nManuelpm[ilegible]mz.\n\n[ilegible: Nedja Dirag]s.\nSec. Al[ilegible: boc].\n\nEn Tausa, a Treintitres de Diciembre de mil\nnoveciento treinta y uno Compareció Lucio Antonio Rodriguez Con el objeto de tomar posesión\ndel Cargo de Tesorero Municipal de la Finda la \"Paramateyo\" - En tal virtud, el Alcalde\npor ante el Secretario le recibió Juramente\nen la forma legal y por Su graciosa prometió Cumplir bien y fielmente Con los deberes\nde Su Cargo. En Constinecia se firma como\naparece,\n\n[ilegible: Represen a Cimadeja]\n\nSal Antonio Rodriguez\nCarlo Rg. Playa.\nSec.\n\nEn Tausa, a treinta y uno de Diciembre de mil\nnoveciento treinta y uno, siendo presente en el despacho Jeremias Ferras, Con el objeto de tomar poSión del Cargo de Secretario adhere de esta ofiCina Miolitura boro la ausencia del Ti[ilegible]tor\nquien se encontró en Comision, a profiló por los mismos de Contes tines y Cuyo que fueron\n[ilegible]señará athingueron. En tal acto de le recibe\nel Juramento legal y por [ilegible] garantas juro",
+      "processing_time_seconds": 15.05,
+      "input_tokens": 1857,
+      "output_tokens": 413
+    },
+    {
+      "page_number": 68,
+      "transcription": "[ilegible: trato] Cumplir, lien y fielmente, con los deberes\nde su cargo. El Concejero se firma\nComo aparece,\n\n*M[ilegible]rra C[ilegible]nudep*\n\nJeremias Farez\n——————\nConcejero.\n\nJose Bohago\n——————\nTesorero M[ilegible].\n\nEn Tausa, a diez y ocho de Enero\nde mil novecientos treinta y dos se presentó en el Despacho de la Alcaldía el Señor\nLuis J. Carillo, a tomar posicion del cargo de\nPersonero Municipal (Personero Municipal)\npor el cuál ha sido nombrado por Oficio\nNo. 3 de tres de Enero del presente año,\nprocedente del Concejo Municipal. En\ntal virtud el Señor Alcalde, por ante su\nSecretario le tomó el juramento legal, y\npor su gravedad prometió cumplir bien\ny fielmente con los deberes de su cargo.\nEn constancia se firma la presente\ndiligencia por lo que en ella intervihieron.\n\n*M[ilegible]ri el C[ilegible]nudep*\n\nLuis J. Carillo\n\n——————————————\n\nCarlos M. [ilegible: Bolan]\n——————\nSecr[ilegible].",
+      "processing_time_seconds": 12.65,
+      "input_tokens": 1857,
+      "output_tokens": 342
+    },
+    {
+      "page_number": 69,
+      "transcription": "En Tausa, a veinte de Enero de mil novecientos treinta y dos, se presentó en el Despacho de la Alcaldía la Señorita Waldina Torres, a tomar posesión del cargo de Directora de la Escuela de \"Rasgatá,\" cargo para el cuál fué nombrada por Decreto No. 33 de 18 del presente. El Señor Alcalde por ante su Secretario le tomó el juramento legal, y por su gravedad prometió cumplir bien y fielmente con los deberes de su cargo. En constancia se firma como aparece,\n\n[ilegible: Afonso de Conm...gz]\n\nWaldina Torres M.\n\nCarlos G. Plaza.\nSec\n\nEn Tausa, a veintiuno de Enero de mil novecientos treinta y dos, se presentó en el Despacho de la Alcaldía la Señora Teofila Rinilla de Hernández, a tomar posesión del cargo de Directora de la Escuela de \"Tasusá bajo\" de este Municipio, cargo para el cual fué nombrada por Decreto No. 33 del 18 de los corrientes. El Señor Alcalde por ante su Secretario le tomó el juramento legal, y por su gravedad prometió cumplir bien y fielmente con los deberes de su cargo. En constancia se firma la presente",
+      "processing_time_seconds": 12.38,
+      "input_tokens": 1857,
+      "output_tokens": 342
+    },
+    {
+      "page_number": 70,
+      "transcription": "diligencia por los que en ella intervinieron,\n\n[ilegible: firma]\n\nTrojila Tinilla de Hernandez.\n\nEn Tausa, a veintiuno de Enero de mil novecientos treinta y dos se presentó en este Despacho el Señor Hernando Ca- rrillo, a tomar posesión del cargo de Cartero de la Oficina de Correo y Telé- grafos de este Municipio. El Señor Alcal- de por ante su Secretario le tomó el juramento legal, y por su gravedad prometió cumplir [ilegible: bien] y fielmente con los deberes de su cargo. Además de la credencial, éste Despacho tiene la no- tificación de dicho nombramiento, en el Oficio No. 5 del señor Presidente del Concejo. En constancia se firma la presente diligencia como aparece,\n\n[ilegible: firma]\n\nHernando Carrillo\n\nCarlos G. Plaza\n\nSeio.\n\nEn Tausa, a veintinueve de Enero de mil novecientos treinta y dos se presentó en el Despacho de la Alcaldía el Señor Felip Rincón a tomar posesión del cargo de Peluquero Municipal de las Escuelas",
+      "processing_time_seconds": 12.98,
+      "input_tokens": 1857,
+      "output_tokens": 322
+    },
+    {
+      "page_number": 71,
+      "transcription": "Urbanos [ilegible] Rintalio [ilegible] pajo como credencial\nel oficio No. 13 de la Presidencia del\nConcejo Municipal. En tal virtud el\nSeñor Alcalde por ante su Secretario le\ntomó el juramento legal, y por su gra\nvedad prometió cumplir [ilegible] y fielmente con los deberes de su cargo. En\nconstancia se firma la presente diligen\ncia como aparece. — [ilegible]\n\nFeliu Rincón\n\nCarlo R. Plaza.\nSecio.\n\n———————————————————————\n\nEstampillas de la Señota. Walfina Torres M.\n(Posesionada el 20 de Enero)",
+      "processing_time_seconds": 8.69,
+      "input_tokens": 1857,
+      "output_tokens": 188
+    },
+    {
+      "page_number": 72,
+      "transcription": "En Tausa, a Treinta de Enero de mil no—\nvecientos treinta y dos, Se Presento en el Des—\npacho de la Auctoridád Municipal el Señor\nCesareo Vargas Con el fin de Tomar Posesion del\nCargo de Director de la bandad e instructor\nde [ilegible] para lo encomendado se To—\nmó de Acuerdo Segun Consta en la\nform de Humbramento Nº 12 de fechad 24\ndel Presente, emanando de la Presidencia del\nConcejo Municipal y Segun Comunicacion de la\nMisma Nº 14 de 27 de lo Currente. El Posecionado\nacto de Costumbre, lo recibió juramentado en la for—\nma legal y por Su guardar prometio Cum—\nplir fiel y fielmente [ilegible] de los Deberes y\n[ilegible] en lo Exberos de Su Cargo. — En Constan—\ncia de firma Como sigue:\n\nCesareo M. Vargas\n\nCarlos R. [ilegible: Plaza]\n\nTausa, Eno. 30 de 1932.\nEn esta fecha adhiero y cancela la estam—\npilla por valor de cincuenta centavos ($0.50)\ndel ácta de Posesion anterior, del Señor\nCesareo [ilegible]\n\nCarlos [ilegible: Rp.] [ilegible: Plaza]\n\n[Sello: ALCALDIA MUNICIPAL / TAUSA]",
+      "processing_time_seconds": 13.27,
+      "input_tokens": 1857,
+      "output_tokens": 396
+    },
+    {
+      "page_number": 73,
+      "transcription": "En Tausa a Dieto de [ilegible] de milnociento Treinta y dos, Comparecio el [ilegible]\n\nJacinto Cudillos\n\nEn Tausa, a cinco de Marzo de mil novecientos treinta y dos, se presento en el Despacho de la Alcaldia el Señor Luis Fco. Garcia\ncon el ofín de tomar posesión del puesto de\nmiembro de la Junta Municipal de Obras\nPublicas, cargo para el cuál fué nombrado por\nel Concejo Municipal en su sesion del 21\nde Febrero último, y que como tal presenta\nel Oficio N. 21 del 3 de los corrientes y procedente de esa entidad. En tal virtud\nse le juramentó en forma legal y por\nsu gravedad prometio por su igualdad cum-",
+      "processing_time_seconds": 9.65,
+      "input_tokens": 1857,
+      "output_tokens": 223
+    },
+    {
+      "page_number": 74,
+      "transcription": "plir bien y fielmente con los deberes de en cargo. En constencia se firma la presente diligencia como aparece,\n\n[ilegible: Raymundo Camacho]\n\n[ilegible: Justino. Garcia]\n\nCarlos De. G. Plaza.\nSecio.\n\nEn Tausa a Catorce de Marzo de milnovecientos treinta y dos, Carlos [ilegible] Jeremias\nTorres tunel efecto de [ilegible] posicion\ndel Cargo de Orinatorio al tenor de la Recolución N [ilegible] que fué nombrado por decreto [ilegible]\nº de [ilegible] dicho y Cargo, pra desempeñaré adenorun. En fiel virtud el [ilegible] durante el Decalnio, le recibió Juramento en la forma legal y por enterada, prometio Cumplir\nbien y fielmente el gabete, Suple su cual debe y confirme lo deberes de su Cargo. En Continuecia\nSe firma como aparece, = [ilegible: Raymundo Camacho]\n\ny\nJeremias Torres\nCarlos De. G. Plaza.\nSecio.",
+      "processing_time_seconds": 11.37,
+      "input_tokens": 1857,
+      "output_tokens": 309
+    },
+    {
+      "page_number": 75,
+      "transcription": "En Tausa, a veintiocho de Marzo de mil\nnovecientos treinta y dos compareció en el Despacho de la Alcaldía el Sr. Gabriel Sanchez con\nel fin de tomar posesión del cargo de Sobrestante de las O. P. Municipales, para lo cual fué\nnombrado según oficio del Concejo Mpal. No. 5,\nde 19 de Enero del pte. año, y presentó credencial el Oficio No. 6 de la misma fecha y\nde esa misma corporación. En tal virtud, el\nSr. Alcalde por ante su Secretario le tomó el\njuramento legal, y por su gravedad prometió no faltar a los deberes para lo cual fué\nnombrado. En constancia se firma la presente diligencia por los que en ella interfinieron.\n\n[ilegible: Raymundo Canuelo]\n\nCarlos R. Garza\n\nEn Tausa a primero de Abril de\nmil novecientos treinta y dos compareció el Señor Carlos E. [ilegible] con\nel objeto de tomar posesión del Cargo de\nAdministrador de Correos y Telégrafos\nde ald, lugar en reemplazo de la Señora Isabel [ilegible: Cardenas] quien se retiró\ndel Cargo por licencia de diez dias que\nel Jefe [ilegible: has] concedido por en [ilegible] se\n[ilegible]. En tal virtud el Alcalde por\nante el Secretario le recibió juramento\nen la forma legal y por su gravedad",
+      "processing_time_seconds": 13.61,
+      "input_tokens": 1857,
+      "output_tokens": 421
+    },
+    {
+      "page_number": 76,
+      "transcription": "n° 11\n\nTausa Mayo 31 de 1932\n\nSeñor\nAlcalde Municipal\n\nE. S. D.\n\nAtentamente me dirijo a Ud\npara solicitarle se digne concederme\nlicencia para retirarme del puesto de\nTelegrafista Admora Correos este lugar\npor el término de diez días, dando co\nmo reemplaza y bajo mi responsabili\ndad al Señor Carlos E. Saavedra, per\nsona competente y honorable.\nUrgeme retirarme motivos graves\nde salud,\n\nDe Usted Atta. S. S.\n\nIsabel Martínez C.\n\nRecibido hoy 31 de Mayo de 1932\ny al [ilegible: Despacho]\n\nCarlos R. Playa.\nSeria.\n\nAlcaldia Municipal\nTausa Mayo treinta y uno\nde mil novecientos treinta y dos\n[ilegible] a la Peticionaria, Seño\nrita Isabel Martínez, la Licencia So\nlicitada en el Manuscrito por ausentarse\npara Reemplazar del puesto de Admi\nnistración de Correos y Telégrafos de este",
+      "processing_time_seconds": 11.92,
+      "input_tokens": 1857,
+      "output_tokens": 305
+    },
+    {
+      "page_number": 77,
+      "transcription": "[ilegible: faena], por el [ilegible: Término] de [ilegible: Veinte] dos\n[ilegible: firmados] en Du [ilegible: buena] y bajo [ilegible] [ilegible: Virgen]\nBabilidad, al [ilegible: fparal] Coboles E. [ilegible: Apara-]\n[ilegible: nas] y [ilegible: quienes] de la Junta [ilegible: de] Saberlo\n([ilegible: feadrian]) —\n\n[ilegible] Cuando se [ilegible: esta provisión]\nCon al [ilegible: Señor] Ministerio de Correos\ny Telégrafos.\n\n[ilegible: V] [ilegible: Cúmplase] —\n[ilegible: Alepomiro] [ilegible: Camandejo]\n\nCarlos [ilegible: R.] Plaza.\nSecrio.",
+      "processing_time_seconds": 7.89,
+      "input_tokens": 1857,
+      "output_tokens": 248
+    },
+    {
+      "page_number": 78,
+      "transcription": "prometió cumplir bien y fielmente\n[ilegible] [ilegible] Sobre lo estando Con\nlas labores de Su Cargo. En constancia\nSe firma Como [ilegible],\n= Manuel [ilegible] [ilegible]\n\nCarlos E. Saavedras.\n\nCarlos R. Playa.\n[ilegible].\n\nTausa, abril 1º de 1932. –\nEn esta [ilegible] en y anulan\nlas esta[mpillas] del cuarenta centavos, ($0.[40]) [ilegible] Posesión del Sr.\nCarlos E. Saavedra, de esta [ilegible] fecha.\n\nCarlos R. Playa.\n[ilegible].\n\n[Sello: ALCALDÍA MUNICIPAL]\n\nEn [ilegible] a [ilegible] de [ilegible] de mil novecientos Treinta y dos [ilegible] [ilegible] [ilegible]\n[ilegible] Carlos [ilegible] electo de [ilegible] [ilegible]\ndel Cargo de [ilegible] de Policía el he[ilegible] se ha obtenido se [ilegible] Juramentado en la forma legal [ilegible] en\nTo [ilegible] [ilegible] cumplir bien y fielmente\nCon las labores del Cargo Sobre [ilegible] [ilegible]\nlo Nombrado. – En Constancia Se firma\nComo aparece,\n\nManuel [ilegible] [ilegible]\n\nMarco Aurelio Zabala\n[ilegible]                    Carlos R. Playa.\n                                         [ilegible].",
+      "processing_time_seconds": 13.1,
+      "input_tokens": 1857,
+      "output_tokens": 419
+    },
+    {
+      "page_number": 79,
+      "transcription": "En Tausa, a diez de Abril de mil novecientos treinta y dos, se presentó en el Despacho\nJeremias Torres con el objeto de tomar posesión del cargo de Secretario adhonoteur de\néste Despacho, mientras dura la ausencia del\nPrincipal, o sea por el término de och días.\nEl Encargado del Despacho, por ante Belisario Castillo quien hace las veces de Secretario\nad-hoc, se le tomó el juramento legal, y por\nsu gravedad prometió cu- faltar a la verdad.\nEn consecuencia se firma la presente diligencia como aparece,\n\nCarlo R. Plaza.\nEncargado.\n\nJeremias Torres\n\nBelisario Castillo\nSec. ad-hoc\n\nEn Tausa, a once de Abril de mil novecientos treinta y dos, se presentó en el Despacho de la Alcaldía el señor Carlos E.\nSaavedra con el fin de Tomar posesión\ndel cargo de Telegrafista, adunto de Correos\nde esta población, por Resolución No. 55 del\n7 de Abril, y según telegrama No. 2360\ndel Ministerio de Correos y Telégrafos, dirigido a este Despacho. El señor Alcalde\npor ante su Secretario le tomó el juramento\nlegal, y por su gravedad prometió cumplir bien y fielmente con los deberes del\ncargo para el cual fué nombrado. Traademás, el señor Saavedra, el telegrama",
+      "processing_time_seconds": 13.25,
+      "input_tokens": 1857,
+      "output_tokens": 416
+    },
+    {
+      "page_number": 80,
+      "transcription": "GOBERNACION DE CUNDINAMARCA\n\nSECRETARÍA DE HACIENDA\n\nCATASTRO\n\nNo. 1431\n\nBogotá, abril 11 de 1932\n\nSeñor\nALCALDE MUNICIPAL DE\nTAUSA.\n\nComunico a usted que la Gobernación por medio del Decreto número 231 de la fecha, tuvo a bien nombrar a los señores Arturo Galvis y Eudoro Rodríguez miembros principales de la Junta Especial que ha de revisar comercialmente el catastro de la propiedad raíz en ese Municipio, y a los señores Julio Castellanos y Campo E. Rodríguez miembros suplentes.\n\nEn tal virtud usted se servirá darles a los nombrados posesión legal é informar a esta Secretaría para los fines consiguientes, así como tambien en caso de que ellos no se presenten en esa Alcaldía a tomar posesión de sus cargos dentro del término legal.\n\nEl mismo Decreto declara insubsistentes los nombramientos hechos anteriormente en los señores Eladio Robayo y Jorge Alberto García para el mismo cargo, por Decreto no.703 del siete de octubre de mil novecientos treinta.\n\nDe Ud. atento servidor,\n\n[ilegible: Rafael Arlt Salcán].\n\nRecibido hoy 19 de abril y pasa al Despacho al día siguiente hábil.\n\nCarlos De [ilegible: Playa].\nSerio.",
+      "processing_time_seconds": 13.0,
+      "input_tokens": 1857,
+      "output_tokens": 383
+    },
+    {
+      "page_number": 81,
+      "transcription": "Contestado\n\nGOBERNACIÓN DE CUNDINAMARCA\nSECRETARÍA DE HACIENDA\nNo. [ilegible]\n\nBogotá, Abril 11 de 1928\n\nSeñor [ilegible] Municipal\n[ilegible]\nTAUSA\n\n[Sello circular: REPÚBLICA DE COLOMBIA - Municipio de [ilegible]]\n\n[ilegible] de mil novecientos [ilegible] [ilegible]\n\n[ilegible] Comparecen a\n[ilegible] [ilegible] Rodríguez, Álvaro Giler,\n[ilegible] [ilegible] [ilegible] Rodríguez\ny [ilegible] [ilegible] con las Causas [ilegible]\n\n[ilegible] según su oficio\n[ilegible] [ilegible] esa\n[ilegible] [ilegible] que sirve de instrucción del\n[ilegible] [ilegible] [ilegible] José [ilegible]\n\n[ilegible] se debe [ilegible] Bogotá [ilegible] enel mismo año, por Decreto No. 703 del seis de\noctubre de mil novecientos [ilegible] [ilegible].\n\nDe Ud. atento servidor,\n\n[Firma: [ilegible] Fernández]\n\nCarlos R. Flarez\n\nRecibida [ilegible] [ilegible] de [ilegible]\ncon la [ilegible] de una infrascritos\n\n[Firma: Gabriel [ilegible] Flórez]\n[ilegible]",
+      "processing_time_seconds": 12.51,
+      "input_tokens": 1857,
+      "output_tokens": 408
+    },
+    {
+      "page_number": 82,
+      "transcription": "No. del mismo Ministerio, como su\ncredencial. En constancia se firman la\npresente diligencia como aparece.\n\nCarlos A. Playa.\nAlcalde Anterior.\n\nCarlos E. Saavedra\n\nMiguel A. Bernal\n[ilegible]\n\n--\nEn Tausa a Veintisiete de Abril de mil novecientos treinta y dos. Compareció en el Despacho\nde Don Julio Castilblico, con el objeto de\ntomar Posesión del Cargo de trescientos En Junto\nde la Junta Especial que debe revisar Commercialmente y Culturos de la Propiedad, cuyo acto Remiticio para cuyo acto también Comparece el\nSeñor Miembro Suplente de la misma, Don Camilo E. Rodriguez, y de la Cual Son principalmente\nTomás [ilegible] Palomino y Eudoro Rodriguez, hoy encuntas de aldo Distrito, y humbrudentado Cumpliendo\npor Mando de Noja Nº 1431 de 11 del Corriente\nemanada de la Dirección de Hacienda del departamiento, que halla del Decreto Nº 231 del Alcaldía y del Nº 703 del [ilegible] la Governación. En tal virtud el Alcalde por tanto Su Secretario, les recibió\nJuramento en la forma legal y por Su gracia prometieron Cumplir bien y fielmente, Tausa Tolual Toleris y relativar Con los deberes de Su Cargo. En Constancia se firman\nComo aparece. [ilegible: Alejandro Casaneda]",
+      "processing_time_seconds": 16.45,
+      "input_tokens": 1857,
+      "output_tokens": 449
+    },
+    {
+      "page_number": 83,
+      "transcription": "Julio Castellanos Y\nCamilo Rodriguez P.\nCarlo P. Plaza.\nSeño.\n\nEn Tausa y trece de Junio de mil novecientos treinta y dos, al efecto presente mediante\ncho Rafael Ballén, Con el objeto de tomar\nposesión del Cargo para que fué nombrado por\ndecreto Nº 25 de alto mirando fecha Estetitud de la recibió el juramento legal y\npor [ilegible: Do] Gonzalo Donamilo cumplir bien y fielmente, Que las Dolores de Su Cargo. En Consecuencia Se Firma como anotace,\n\n[ilegible: Meporro Camillo]\nA cargo de Rafael Ballén [ilegible: cocion] No aceite,\n\n[ilegible: Isaac Bello]\nCarlo P. Plaza.\nSeño.\n\nEn Tausa a Trece de Junio de mil novecientos Treinta y dos, Se hizo comparecer al Señor\nJacinto Rabayo, quien, bajo la gravedad de[l] juramento que de los recibe en forma legal trala tomar Posesión del Cargo de Inspector [ilegible: telo]\nPolicial para que fué, Nombrado por decreto Nº\n4 Se hizo Este hecho Prometió Cumplir bien\ny fielmente [ilegible: Recal] Da los deberes [ilegible: l] entanlla, Con las Dolores de Su Cargo. En Con-",
+      "processing_time_seconds": 14.28,
+      "input_tokens": 1857,
+      "output_tokens": 388
+    },
+    {
+      "page_number": 84,
+      "transcription": "Tumera De [ilegible] [ilegible] [ilegible],\n[ilegible] [ilegible: Cumandey]\n\nJacob Robayo\n\nCarlos R. Plaza.\nSecio.\n\nEn Tausa, a diez y siete de Junio de mil novecientos treinta y dos, se presentaron en el Despacho de la Alcaldía los Señores Santos Castañeda y José de Animatea Alvarez, con el fín de tomar posesión del cargo de Agentes de Policía de la Vereda de Plasgath de este Municipio, cargo para el cuál fueron nombrados por Decreto No. 5 del 13 de los corrientes. El Infrascruto Alcalde por ante su Secretario les tomó el juramento legal, y por su gravedad prometieron de faltar a los Deberes del cargo para el cuál han sido nombrados. Y en constancia se firma la presente diligencia [ilegible] [ilegible],\n[ilegible: Mpmm Cumme]\n\nJose Santos Castañeda\n[rúbrica]\n\nJosé de Animatea Alvarez\n[rúbrica]\n\nCarlo R. Plaza.\nSecio.",
+      "processing_time_seconds": 10.78,
+      "input_tokens": 1857,
+      "output_tokens": 300
+    },
+    {
+      "page_number": 85,
+      "transcription": "En Tausa a 23 de Junio de mil novecientos treinta y dos, se presentó en el\nDespacho de la Alcaldía el Sr. Constantino Montaño con el fin de tomar posesión\ndel cargo de Agente de Policía de la Vereda de \"Tasgatá\". para el cuál fué nombrado. El señor Alcalde le tomó el Juramento legal, por ante su Secretario, y\npor su gravedad prometió cumplir bien\ny fielmente con los deberes de su cargo.\nFué nombrado por Decreto No. 5 del 13\nde los corrientes. En constancia se firma\nla presente diligencia como aparece,\n\n[ilegible] [ilegible]\n\nConstantino Montaño\nCarlos R. Plaza\n— Secrio. —\n\nEn Tausa, a Primero de Julio de mil novecientos treinta y dos, [ilegible] se presentó en el\nDespacho [ilegible: Jesús Palacios] con el objeto de tomar posesión del Cargo de Agente de Policía\n[ilegible: tufe] dicho. Se le recibe el Juramento\nlegal, y por él juramento prometió cumplir bien y [ilegible: fielmente] con los deberes de\nsu cargo. En Constancia se firma como\naparece,\n\n[ilegible] [ilegible]\n\nJesús Palacios\n[ilegible]                    Carlos R. Plaza\n                                    — Secrio. —",
+      "processing_time_seconds": 11.95,
+      "input_tokens": 1857,
+      "output_tokens": 404
+    },
+    {
+      "page_number": 86,
+      "transcription": "En Tausa, a primero de Julio de mil novecientos treinta y dos, Se presentó en el Despacho el Sr. Ezequiel Sánchez con el objeto de tomar posesión del cargo de Agente Escolar, para el cuál fué nombrado. El Sr. Alcalde por ante su secretario le tomó el juramento legal y por su gravedad prometió cumplir bien y fielmente con los deberes de su cargo. En constancia se firma en seguida como apare,\n\n[ilegible: Rejuuro Connoly]\n\nEzequiel Sánche[ilegible]\n\nCarlos G. Plaza.\nSerio.\n\nEn Tausa, a primero de Agosto de Agosto de mil novecientos treinta y dos, se presentó en el Despacho de la Alcaldía el Señor Anacor Espejo, con el ofin de tomar posesión del Cargo de Agente de Policía de la Vereda de Páramo-bajo de esta Jurisdicción, cargo ad-lionorem para el cuál fué nombrado por Decreto No. 9 de esta fecha. El Señor Alcalde, por ante su Secretario, le tomó el juramento legal. y por su gravedad prometió cumplir bien y fielmente con los deberes de su cargo. En",
+      "processing_time_seconds": 10.7,
+      "input_tokens": 1857,
+      "output_tokens": 324
+    },
+    {
+      "page_number": 87,
+      "transcription": "Constancia se firma la presente\ndiligencia como aparece,\n\n[ilegible: Manuel Carmeda/n]\n\nA ruego de Anacos Espejo quien no\nfirma, Jesús Palacios\n\nCarlos R. Plaza.\n— Secrio.\n\nEn Tausa, a cinco de Agosto de mil\nnovecientos treinta y dos, se presentó en\nla Alcaldía la Señorita Matilde\nVargas Hernández, con el fin de tomar\nposesion del Cargo de Admora. de Correos\ny Telégrafos de este lugar, según telegrama No. 65 del 20 de Junio pasado y\nOficio No. 2332 del 2 del presente, enviadas del Ministerio de Correos y Telégrafos. El señor Alcalde por ante su\nSecretario le tomó el juramento legal,\ny por su gravedad prometió cumplir\nbien y fielmente con los deberes de\nsu cargo. En constancia se firma la\npresente diligencia como aparece,\n\n[ilegible: Matilde muma/n]\n\nMatilde Vargas Hernández\n\nCarlos R. Plaza.\n— Secrio.",
+      "processing_time_seconds": 10.84,
+      "input_tokens": 1857,
+      "output_tokens": 308
+    },
+    {
+      "page_number": 88,
+      "transcription": "El ,Juez 1º del Circuito de Ubaté,\n\nC E R T I F I C A:\n\nQue el señor Luis Francisco García, quien fue nombrado para desempeñar el cargo de Juez Municipal\nde Tausa en el período comprendido del primero de agosto de mil novecientos treinta y dos al treinta y uno de julio de mil novecientos treinta y tres, constituyó ante este Despacho la fianza legal\ncorrespondiente, y por tanto, puede dársele la debida posesión.\n\nDado en Ubaté, a cuatro de agosto de mil novecientos trein\nEl Jues, [ilegible: Campo Bellorenz]\n\nEl Secretario, Rafael A. Palacios\n[ilegible: &ri int.]",
+      "processing_time_seconds": 8.5,
+      "input_tokens": 1857,
+      "output_tokens": 205
+    },
+    {
+      "page_number": 89,
+      "transcription": "En Tausa a 9[ilegible] de Julio de mil novecientos\ntreinta y dos, Cumplimiento el Teniente Cruz Janneireo [ilegible]\nCivil nombrando Juez Municipal para el juzgado en Curso,\nSegún Comisión No 18ª la del b.o oficio del\nConcejo Nº 55 de Julio 23 dirigido a este Despacho y\n[ilegible] haber Aministado al Juez electo el Certificiento expedido por el Juez Jurez Pº del Circuito de [ilegible] en\nque Consta que Constituyó la firranza necesaria y\nque por lo tanto puede Darle la posesión — Esta oficio al\nAlcalde le recibio juramiento en forma legal y por\nEn grandad firmados Cuando bien y yacentemente Según tabel\n[ilegible] y inclusive Con los términos de Su Cargo. La Constancia se firma— Alejandro Garcia de [ilegible]\n\n[firma:] [ilegible] Garcia\n\nCarlos R. Plaza.\n— Serio.\n\n--\nEn Tausa a 9[ilegible] de agosto de mil novecientos\ntreinta y dos, Peludo Almesento en el Despacho\nel Inspector de Policia Juerbo Robayo Sin\n[ilegible]fo le tomaro posesión del Cargo de Comi[ilegible] el que se noto des[ilegible]pecho, brindole la Comisión\ndel Preventorio titular, Cargo que le lo dio el Numero\nPro cuento 18ª 14 de [ilegible] misma fecha. En Secretaría\nSolo recibió el juramento legal y por En gradeno\nPrometió [ilegible] bien [ilegible] Claramente Con los\ntérminos de Su Cargo. Se firma Como aparece—\nAlejandro Garcia de [ilegible]\nJacobleo Robayo\n\nCarlos R. Plaza\n— Serio.",
+      "processing_time_seconds": 17.46,
+      "input_tokens": 1857,
+      "output_tokens": 514
+    },
+    {
+      "page_number": 90,
+      "transcription": "+\n\nEn Tausa, a doce de Agosto de mil novecientos treinta y dos, se presentó en el\nDespacho de la Alcaldía el señor\nMiguel Bernal, con el fín de tomar\nposesión del cargo de Agente de\nPolicía Municipal, puesto para el\ncual fué nombrado por Decreto No.\n12 de esta misma fecha. El señor\nAlcalde por ante su Secretario le\ntomó el Juramento legal, y por\nsu gravedad prometió cumplir\nbien y fielmente con los deberes\ndel cargo para el cuál ha sido\nnombrado. En constancia se firma\nen seguida como aparece,\n\n[ilegible: Mijuel de Camargo]\n\nMiguel A. Bernal\n\nCarlos De Plaza.\n— Serio.\n\nEn Tausa, a diez y siete de Agosto\nde mil novecientos treinta y dos, se presentó en el Despacho de la Alcaldía\nMiguel Bernal, con el fín de tomar\nposesión del cargo de Secretario Ad hoc\nde esta Oficina, cargo que desempeñará ad-honorem, mientras dure la ausencia del señor Alcalde titular.\nEs suscrito Secretario Encargado, por",
+      "processing_time_seconds": 10.28,
+      "input_tokens": 1857,
+      "output_tokens": 325
+    },
+    {
+      "page_number": 91,
+      "transcription": "/ 6 6\n\nante su Secretario Ad-hoc, le tomó\nel juramento legal, y por su grave\ndad prometió cumplir bien y fiel\nmente con los deberes de su cargo.\nEn constancia se firma la presente\ndiligencia como aparece,\nCarlos R. Plaza.\nEncargado.\n\nMiguel A. Bernal\n\nJeremias Torres\nSecretario\n\nEn Tausa, a primero de Septiembre\nde mil novecientos treinta y dos, ante\npresente en el Despacho del Señor Jefe\n[ilegible: Notario] [ilegible] V., que el efecto le to\nmó, posesión del Cargo de Secretario\ninterino de este Despacho como que fue\nNombrado por Decreto Nº 16 de fecha\nde [ilegible] y Comunicado por oficio\nNº [ilegible: 4730] de fecha de hoy. Calificaron\na [ilegible] Por el Señor [ilegible: Encargado]\na dhoc se recibió juramento en la de\nbida forma y protestó de cumplir fiel\nría, cumplir bien y fielmente [ilegible]\nsu cargo Sobre el estricto Cumplimien\nto de su Juego. En Constancia\nfirma como aparece.\n[ilegible: Alejandro Cossio] [ilegible]\n\n[ilegible: Bartolome acunad]\nMiguel A. Bernal\nSecretario ad-hoc.",
+      "processing_time_seconds": 12.55,
+      "input_tokens": 1857,
+      "output_tokens": 385
+    },
+    {
+      "page_number": 92,
+      "transcription": "Al Despacho de la Alcaldía Municipal de\nTausa, a [ilegible: veintiuno] de setiembre de mil novecientos [ilegible: treinta] y dos se presentó el señor Alfonso [ilegible: Bord] M. con el fin de tomar\nposesión del cargo de secretario en propiedad de la Alcaldía de este lugar,\ny para que fue nombrado por Decreto\nN° 1° de ésta misma fecha. El señor alcalde le recibió el juramento en\nla forma legal en el cual prometió\ncumplir bien y fielmente con los deberes que el cargo le impone. En\nconstancia firma como aparece.\nla presente diligencia por ante\nlos suscritos Alcalde y secretario ad–hoc.\n\nDamien [ilegible: Bord] [ilegible: Franco]\n\nAlfonso [ilegible: Bord] [ilegible]\n\nJesús Palacios\ns/o ad-hoc [ilegible]\n\nAl Despacho de la Alcaldía Mpal. de Tausa\na veintidos de Octubre de mil novecientos\ntreinta y dos se presentó el señor Clemente Pedraga, con el fin de tomar posesión del cargo de Comisario de la Vereda\nde Páramo alto, y para que fue nombrado\nen decreto número 20 de esta misma fecha. El señor alcalde lo posesionó en la forma legal en el cual prometió cumplir\nbien y fielmente en los deberes de su cargo.\nEn constancia firma como aparece la pre-",
+      "processing_time_seconds": 12.33,
+      "input_tokens": 1857,
+      "output_tokens": 427
+    },
+    {
+      "page_number": 93,
+      "transcription": "- Presidencia del Jurado Electoral.\n\nTausa, Octubre 25 de 1933\n\nSeñor\n- Alcalde Municipal Presente.\nTengo el honor de comunicar a Vd. que estando próxima la fecha en que debe reunirse éste Jurad. y siendo mi deber poner en su conocimiento las fall[as] de cumplimiento por parte de algunos de sus miembros, procedo a anotarle las siguientes, encarreciéndole que procure remediarlas de acuerdo con la Circular del Concejo Electoral de fecha 19 del presente).\n\nEl Sr. Carlos Cortés, miembro principal, ni siquiera ha tomado posesión de su cargo, y a pesar de haberlo requerido, manifiesta que no concurrirá porque se ausentará del lugar al Municipio de Cogua.\n\nEl Sr. Victor M. Forero, suplente del anterior, a pesar de haber sido requerido, no concurrió a las sesiones pasadas, dejando vacante ese renglón, e imposibilitando a la [cor]poración para sesionar.—\n\nEsperando que con su espíritu legalista que lo anima, Vd. procederá a enviar la terna correspondiente, me suscribo como su atto y S. S.\n\nEl Presidente,\n\nEladio Nob[a]yo\n\n--\nRecibdo hoy veinticinco de octubre de mil novecientos treinta y tres y pasa al despacho del señor Alcalde.\n\n[ilegible: firma]",
+      "processing_time_seconds": 14.39,
+      "input_tokens": 1857,
+      "output_tokens": 389
+    },
+    {
+      "page_number": 94,
+      "transcription": "sente diligencia por ante los suscritos alca[lde]\nde y secretario.\n\nDaniel [ilegible: Orta] [ilegible: Juanes]\n\n[ilegible: Camun] [ilegible]\n\nA ruego de [ilegible: Clemente] [ilegible: Pedraza],\nJacobo Robayo\n\nAlfnso Liro [ilegible]\n\n--\nAl Despacho de la Alcaldia Municipal d e Tausa a vienticinco de\nOctubre de mil novecientos treinta y dos, se presentó el señor\nIsaias Rodriguez con el fin de tomar posesión del cargo de Cartero\nde la Oficina Telegrafica de este lugar, mientras dura la licencia\nconcedida al Titular señor Hernando Carrillo y para que fué nombrado interinamente por Decreto No. 21 de esta misma fecha. El señor Alcalde le exigió la promesa legal por el cual prometió cumplir bien\ny fielmente con los deberes de su cargo. Enconstnacia firma como\naparece la presente diligencia.\n\nDaniel [ilegible: Orta] [ilegible: Juanes]\n\n· Isaias Rodriguez\nAlfnso Liro [ilegible]\n\n--\nAl Despacho de la Alcaldia Municipal de Tausa, a treinta de Octubre\nde mil novecientos treinta y dos, se presentaron los señores Eladio Robayo, Luis Francisco García, Leonidas Forero, Arturo Galvis Bonilla\ny Campo E. Rodriguez; y Samuel Forero, Victor Manuel Forero, Bejamín\nGarcía, Cenón Sanchez y Pedro Robayo; con el fín de tomar posesión\ndel cargo de MIEMBROS DEL JURADO ELECTORAL DE ESTE MUNICIPIO, principales y suplentes respectivamente, y para que fueron nombrados según\ntelegrama sin número con fecha 28 de los corrientes, del Gran Concejo\nElectoral de Bogotá. El señor Alcalde por ante mi su secretario les\nrecibió el juramento en la forma legal por elo cual prometieron cur-",
+      "processing_time_seconds": 16.93,
+      "input_tokens": 1857,
+      "output_tokens": 548
+    },
+    {
+      "page_number": 95,
+      "transcription": "[ilegible]bien y fielmente con los deberes de su cargo. Enconstancia firman\n[ilegible]parece la presente diligencia por ante los suscritos Alcalde y\n[ilegible]creterio. Asi firman.\n\nDaniel Borda [ilegible: Franco]\n\nBenjamín García                    [ilegible: Uldfo.] M. [ilegible: Faucel]\n\n[ilegible: Raupo] Rodríguez P.\n\n[ilegible]                                      Eladio [ilegible: Poboya]\n\n[ilegible: Artun] Fablo [ilegible: Bonilla]          Pedro [ilegible: Probayoc]\n\nLeonidas Torero R[ilegible]\n\nMiguel [ilegible: Offernal]\n[ilegible: Srio] ad-hoc",
+      "processing_time_seconds": 8.23,
+      "input_tokens": 1857,
+      "output_tokens": 219
+    },
+    {
+      "page_number": 96,
+      "transcription": "Al Despacho de la Alcaldia Municipal de Tausa a treinta y uno de Octubre de mil novecientos treinta y dos, se presentaron los señores Manuel Malaver y Pedro Garzón, con el fin de tomar el cargo de Comisarios de la Vereda de Parame-Alto para que fueron nombrados. El señor Alcalde por ante mi su secretario les recibió el juramento en la forma legal por el cual prometieron cumplir bien y fielmente con los deberes de su cargo. En constancia firman como aparece la presente diligencia por ante los suscritos Alcalde y secretario.\n\nDaniel Bor[ilegible] Juanez\n\nA ruego de Manuel Malaver, quien dice no saber,\n\nJacobo Robayo\nPedro Garzón\n\nAlfonso Pera [ilegible]\n\nAl Despacho de la Alcaldia Municipal de Tausa a seis de Noviembre de mil novecientos treinta y dos, se presento el Sr. Carlos E Carrasco con el fin de tomar posesion del cargo de Secretario de la Alcaldia para que fué nombrado el dia seis de los corrientes.- El Señor Alcalde le recibio juramento en la forma legal por el cual prometio cumplir bien y fielmente con los deberes de su cargo.- En constancia firma como aparece la presente diligencia.\nDaniel Bor[ilegible] Juanez\nCarlos E Carrasco\n[ilegible] Torres\nSrio ad-hoc\n\nAl Despacho de la Alcaldia Municipal de Tausa a doce de Noviembre de mil novecientos treinta y dos, se presentó el señor PEDRO PACHON con el fin de tomar posesión del cargo de MIEMBRO DEL JURADO ELECTORAL DE ESTE MUNICIPIO como suplente y en reemplazo del Dr LUIS FELI-",
+      "processing_time_seconds": 13.0,
+      "input_tokens": 1857,
+      "output_tokens": 463
+    },
+    {
+      "page_number": 97,
+      "transcription": "PE ROBAYO segun telegrama sin numero y sin fecha del mes de Noviembre\nen curso, del Gran Concejo Electoral de Bogotá.- El señor Alcalde por\nante mi su secretario le recibió juramento en la forma legal por el\ncual prometió cumplir bien y fielmente con los deberes de su cargo.-En\nconstancia firma como aparece la presente diligencia.\nDaniel Ordo [ilegible: framy]\n\nPedro Pachon\n\nCarlob Canascole\nSrio\n\nEn el Municipio de Tausa a catorce de noviembre de mil novecientos treinta y dos, se presentaron\nen el Despacho de la Alcaldía los señores Julio\nBecerra, Eustacio Contreras, Miliades Forero, Ertugelio\nde Forero, Florentino Caryos, Gregorio Garcia, Jeremias\nRodriguez, Adan Penagos, Belisario Rodriguez, Nicasia\nBello, Gueorio Garcia A., Absalon Pascos, Miliades\nSalazar, Aurelio Rincon, Julio Silva, Julio Alfredo [ilegible: Rio]\nlayo, Pedro Pablo Rincon y Benjamin Bonilla, con el\nfin de tomar posesión de miembros de las comisiones encargadas del levantamiento del censo. El\nAlcalde con las formalidades de la ley les\nrecibió juramento y por una grandes prometieron\ncumplir bien y fielmente sus deberes. En constancia firman.\n\nCarlob Canascole\n\nJulio [ilegible: Ago Robayo]          Teinto Bello\n                                       Sucion Silvio\n\nAurelio Rincon\n\nNicasio Bello          Adan [ilegible: Jenaa]\n\nAbsalon Garcia          Gregorio Garcia A.",
+      "processing_time_seconds": 15.46,
+      "input_tokens": 1857,
+      "output_tokens": 476
+    },
+    {
+      "page_number": 98,
+      "transcription": "REPUBLICA DE COLOMBIA\n\nTELEGRAFOS NACIONALES\n\n1931—Imp. Nacional—Bogotá.\n\n*Calidad del despacho*\n\n*Nº*\n\n| Número original | Palabras | Valor | Hora de introduccion | Hora de recibo | Empleado receptor |\n|---|---|---|---|---|---|\n| | 28 | | 13 | 10-20 | [ilegible: Pargay] |\n\nConsejo Electoral Bogotá de Nov. 11 de 1932\n\nSeñor\n\nAlcalde\n\nTausa\n\nSírvase posesionar a [ilegible: Carlo] Julio\nCortés y Pablo [ilegible: Pachon] nombrados\nmiembros Jurado Electoral [ilegible: sia] en\nreemplazo de [ilegible: Luis] Francisco García y\n[ilegible: Luis] Felipe Robayo.\n\nPor Presidente. [ilegible: Cbrio.]\n\nDavid A. Potrero.",
+      "processing_time_seconds": 8.26,
+      "input_tokens": 1857,
+      "output_tokens": 247
+    },
+    {
+      "page_number": 99,
+      "transcription": "Posesión del Secretario interino\n(Noviembre 14/32)\n\nEn el Municipio de Tausa a catorce de Noviembre de mil novecientos treinta y dos se presentó en el Despacho de la Alcaldía Municipal el Sr. Ernest Blane[ilegible] con el fin de tomar posesión del puesto de Secretario interino para que fué nombrado por decreto N.º 23 de esta fecha. Jura- mentado por el mismo Alcalde prometió cumplir bien y fielmente los deberes del cargo y su constancia firma con el Alcalde.     Carlos [ilegible: Carrasol]\n\nErnest Blane[ilegible]\n\nEn el Municipio de Tausa a veintiocho de Noviembre de mil novecientos treinta y dos se presentó en el Despacho de la Alcaldía el Señor Antonio Maria Sánchez con el fin de tomar posesión del cargo de Miembro del Jurado Electoral de este Municipio Firmo Suplente de los Arturo Galvis Bonilla según Telegrama sin numero de fecha veintiseis de Noviem- bre en curso, del Gran Concejo Electoral de Bogotá. El Señor Alcalde por ante mi su Secretario le reciví- ó juramento en la forma legal por el cual prometió cumplir bien y fielmente con los deberes de su cargo.- En constancia se firma como aparece la presente diligencia.\nDaniel Bosa[ilegible: Granies]\nAnt[ilegible: Sánchez]",
+      "processing_time_seconds": 12.04,
+      "input_tokens": 1857,
+      "output_tokens": 391
+    },
+    {
+      "page_number": 100,
+      "transcription": "En el Municipio de Tausa a primero de diciembre de mil novecientos treinta y dos, se presentó en el Despacho de la Alcaldía Municipal el señor Manuel Fórero Gómez, con el fin de tomar posesion del cargo de INSPECTOR DE POLICIA para que fué nombrado por Decreto número 25 de ésta misma fecha. En tal virtud el señor Alcalde le recibió juramento en la forma legal y bajo su gravedad, prometió cumplir bien y fielmente con los deberes de su cargo. En constancia se extiende la presente diligencia que se firma por los que en ella intervinieron.\n\nEl Alcalde,\n\nDaniel Orte[ilegible: Branco]\n\nMannell[ilegible]\n\nCarlos Olanascol\n[ilegible: ario]\n\nEn el Municipio de Tausa a cinco de diciembre de mil novecientos treinta y dos, se presentó en el Despacho de la Alcaldia el señor Benjamín García con el fin de tomar posesión del cargo de Juez primer suplente, para que fue nombrado para el presente periodo, según comunicación #67 de cinco de los corrientes, dirigida al señor García y firmada por el señor Presidente del Concejo. El señor Alcalde con las formalidades de la ley le recibió juramento y por su gravedad prometió cumplir bien y fielmente los deberes del cargo. En constancia firma la presente diligencia.\n\nDaniel Orte[ilegible: Branco]\n\nBenjamin Garcia\n\nCarlos C. Camasol\n[ilegible: ario]\n\nEn el Municipio de Tausa a cinco de Diciembre de mil novecientos treinta y dos, se presentó en el Despacho de la Alcaldia el señor Abel N[o]rrete, con el fin de tomar posesión del cargo de agente de policia",
+      "processing_time_seconds": 13.57,
+      "input_tokens": 1857,
+      "output_tokens": 472
+    },
+    {
+      "page_number": 101,
+      "transcription": "a vereda de [ilegible: Sabaneque] para que fué nombrado por Decreto numero 26 de\nésta misma fecha. En tal virtud el señor Alcalde le recibió juramento\nn la forma legal y por su gravedad ofreció cumplir bien y fielmente\ncon los deberes del cargo para que ha sido nombrado. En constancia se\nextiende la presente diligencia que se firma como aparece.\n\nDaniel Borda Irauen\n\n[ilegible: Alo] [ilegible: Ltamoreto]\n\n[ilegible] [ilegible: Carrasole]\n[ilegible: rio]\n\nEn el Municipio de Tausa a veintiocho de Diciembre de mil novescientos\ntreinta y dos se presentó en el Despacho de la Alcaldia el señor\nAdolfo Nieto con el fin de tomar posesión del cargo de Recaudador de\nla Aduanilla del \"Aguasal\" puesto para el cual fué nombrado por la\nSecretaria de Hacienda del Departamento por Resolución No 55 de fecha\n26 de los corrientes.- El señor Alcalde le recibió el juramento en\nlegal forma y por su gravedad prometió cumplir bien y fielmente los\ndeberes que el cargo le imponen.- En constancia firma la presente diligencia como aparece.\nDaniel Borda Irauen\n\nAdolfo [ilegible: Nieto]\n[ilegible]",
+      "processing_time_seconds": 11.26,
+      "input_tokens": 1857,
+      "output_tokens": 372
+    },
+    {
+      "page_number": 102,
+      "transcription": "REPUBLICA DE COLOMBIA\n\nTELEGRAFOS NACIONALES\n\n1932—Imp. Nacional—Bogotá.\n\n| Número original | Palabras | Valor | Hora de introducción | Hora de recibo | Empleado receptor |\n|---|---|---|---|---|---|\n| | 16 | | 16 | 17-30 | Vargas [ilegible] |\n\nConsejo Electoral Bogotá 26 Nov. de 19 32\n\nSeñor Alcalde\n\nTausa\n\nSírvase posicionar Antonio Maria\nSánchez nombrado miembro Jura\ndo Electoral esa en reemplazo de\nJesún Sánchez.\n\nPor Presidente. [ilegible: Strio.]\n\nDavid A. Forero.",
+      "processing_time_seconds": 7.44,
+      "input_tokens": 1857,
+      "output_tokens": 190
+    },
+    {
+      "page_number": 103,
+      "transcription": "Tausa, Octubre 31 de 1.932.\n\nSeñor Alcalde Municipal\nE.S.D.\n\nMe dirijo a Ud. por medio de la presente para significarle que habiendo sido nombrado miembro principal del Jurado Electoral de este Municipio para el periodo que principia el 1o. de Noviembre proximo, me es imposible aceptar dicho cargo por ejercer en la actualidad las funciones de Juez Muncipal de este lugar que de conformidad con la Ley me inhabilita para tomar parte en las Corporaciones Electorales. (Art.6, inciso [ilegible: V.] Ley 7 1932- En consecuencia sirvase Ud. llamar a mi suplente Señor Victor Manuel Forero para que tome posesión del cargo y ruegole comunicar mi inhabilidad al Concejo Electoral.\n\nDe Ud. Att. y SS.\n\n[ilegible: Luis Fleo García]",
+      "processing_time_seconds": 9.54,
+      "input_tokens": 1857,
+      "output_tokens": 241
+    }
+  ],
+  "started_at": "2026-04-16T03:50:32.070506+00:00"
+}
