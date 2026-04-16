@@ -1,6 +1,6 @@
 {
-  "source_file": "assets\\docs\\tausa_alcaldia_libro_posesiones_1925_1928.pdf",
-  "document_title": "Tausa - Libro de Posesiones 1925-1928",
+  "source_file": "assets\\docs\\alcaldia_tausa_libro_despacho_alcalde_1925_1928.pdf",
+  "document_title": "Alcaldía de Tausa - Libro del Despacho del Alcalde de 1925 a 1928",
   "model": "claude-sonnet-4-6",
   "total_pages": 120,
   "processed_pages": [

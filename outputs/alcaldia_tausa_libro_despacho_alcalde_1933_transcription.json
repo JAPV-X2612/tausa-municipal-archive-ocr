@@ -1,6 +1,6 @@
 {
-  "source_file": "assets\\docs\\tausa_alcaldia_libro_posesion_1933.pdf",
-  "document_title": "Tausa - Libro de Posesión 1933",
+  "source_file": "assets\\docs\\alcaldia_tausa_libro_despacho_alcalde_1933.pdf",
+  "document_title": "Alcaldía de Tausa - Libro del Despacho del Alcalde de 1933",
   "model": "claude-sonnet-4-6",
   "total_pages": 77,
   "processed_pages": [

@@ -1,6 +1,6 @@
 {
-  "source_file": "assets\\docs\\tausa_alcaldia_despacho_alcalde_1953_1954.pdf",
-  "document_title": "Tausa - Despacho del Alcalde 1953-1954",
+  "source_file": "assets\\docs\\alcaldia_tausa_libro_despacho_alcalde_1953_1954.pdf",
+  "document_title": "Alcaldía de Tausa - Libro del Despacho del Alcalde de 1953 a 1954",
   "model": "claude-sonnet-4-6",
   "total_pages": 15,
   "processed_pages": [
