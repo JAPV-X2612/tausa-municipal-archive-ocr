@@ -10,10 +10,10 @@ __pycache__/
 venv/
 env/
 
-# Project data — not needed inside the API image
-assets/docs/
-outputs/
-chroma_db/
+# Project data
+assets/docs/          # source PDFs — large, not needed by the API
+outputs/*.txt         # plain-text transcriptions — only the JSONs are needed
+chroma_db/            # rebuilt at container startup via entrypoint.sh
 *.db
 
 # Secrets — use env_file or Railway environment variables instead

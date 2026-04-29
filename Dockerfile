@@ -42,11 +42,13 @@ SentenceTransformer('paraphrase-multilingual-mpnet-base-v2')"
 
 # ── Application code ──────────────────────────────────────────────────────────
 COPY src/ ./src/
-COPY serve.py ingest.py transcribe.py .env.example ./
+COPY outputs/ ./outputs/
+COPY serve.py ingest.py transcribe.py .env.example entrypoint.sh ./
 
 # ── Security: non-root user ───────────────────────────────────────────────────
 RUN useradd -m -u 1000 appuser \
-    && chown -R appuser:appuser /app
+    && chown -R appuser:appuser /app \
+    && chmod +x /app/entrypoint.sh
 USER appuser
 
 # ── Runtime ───────────────────────────────────────────────────────────────────
@@ -56,8 +58,8 @@ VOLUME ["/app/chroma_db"]
 
 EXPOSE 8000
 
-# Allow 90 s for startup (model load + ChromaDB init before first /health check).
-HEALTHCHECK --interval=30s --timeout=10s --start-period=90s --retries=3 \
+# Allow 120 s for startup: model load + initial ingest on first deploy.
+HEALTHCHECK --interval=30s --timeout=10s --start-period=120s --retries=3 \
     CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"
 
-CMD ["python", "serve.py"]
+ENTRYPOINT ["/app/entrypoint.sh"]
