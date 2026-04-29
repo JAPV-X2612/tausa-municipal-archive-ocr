@@ -54,3 +54,16 @@ INTER_PAGE_DELAY_SECONDS: float = float(os.getenv("INTER_PAGE_DELAY_SECONDS", "1
 
 CHROMA_DB_DIR: Path = ROOT_DIR / "chroma_db"
 SQLITE_DB_PATH: Path = OUTPUTS_DIR / "archive_index.db"
+
+# =============================================================================
+# API SERVER
+# =============================================================================
+
+# Comma-separated list of allowed CORS origins.
+# In production, set this to the exact Vercel frontend URL.
+ALLOWED_ORIGINS: list[str] = os.getenv(
+    "ALLOWED_ORIGINS", "http://localhost:3000"
+).split(",")
+
+# Default number of archive chunks retrieved per chat query.
+RAG_N_RESULTS: int = int(os.getenv("RAG_N_RESULTS", "5"))
