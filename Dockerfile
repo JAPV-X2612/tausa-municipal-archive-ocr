@@ -7,9 +7,9 @@
 #     torch installation and does not pull CUDA packages.
 #   - The sentence-transformers embedding model is downloaded at build time
 #     (baked into the image) to eliminate cold-start latency on first request.
-#   - /app/chroma_db is declared as a VOLUME. Mount a persistent disk at that
-#     path in Railway (or a named volume in Docker Compose) so the vector
-#     store survives container restarts.
+#   - Railway does not support the VOLUME instruction. Persistent storage for
+#     /app/chroma_db must be configured as a Railway Volume in the dashboard
+#     (Service → Volumes → Mount path: /app/chroma_db).
 # =============================================================================
 
 FROM python:3.12-slim
@@ -52,9 +52,9 @@ RUN useradd -m -u 1000 appuser \
 USER appuser
 
 # ── Runtime ───────────────────────────────────────────────────────────────────
-# Declare the vector store directory as a volume. Railway / Docker Compose
-# should mount a persistent disk here so ingested data is not lost on redeploy.
-VOLUME ["/app/chroma_db"]
+# NOTE: Railway does not support the VOLUME instruction. Configure persistent
+# storage for /app/chroma_db via the Railway dashboard:
+# Service → Volumes → Add Volume → Mount path: /app/chroma_db
 
 EXPOSE 8000
 
