@@ -115,18 +115,25 @@ async def stream_chat_response(
         user_message = f"Pregunta: {query}\n\nCONTEXTO DEL ARCHIVO:\n{context_block}"
 
         # --- 4. Stream Claude response (with optional web search) ----------
-        extra_kwargs: dict = {}
-        if settings.WEB_SEARCH_ENABLED:
-            extra_kwargs["tools"] = [{"type": "web_search_20250305"}]
-            extra_kwargs["betas"] = ["web-search-2025-03-05"]
-
-        async with client.messages.stream(
+        # Web search requires the beta client namespace; the standard
+        # messages.stream() does not accept a `betas` keyword argument.
+        common_kwargs: dict = dict(
             model=settings.CLAUDE_MODEL,
             max_tokens=settings.MAX_OUTPUT_TOKENS,
             system=_SYSTEM_PROMPT,
             messages=[{"role": "user", "content": user_message}],
-            **extra_kwargs,
-        ) as stream:
+        )
+
+        if settings.WEB_SEARCH_ENABLED:
+            stream_ctx = client.beta.messages.stream(
+                **common_kwargs,
+                tools=[{"type": "web_search_20250305"}],
+                betas=["web-search-2025-03-05"],
+            )
+        else:
+            stream_ctx = client.messages.stream(**common_kwargs)
+
+        async with stream_ctx as stream:
             async for text_chunk in stream.text_stream:
                 yield _sse({"type": "text", "delta": text_chunk})
 
