@@ -1,10 +1,13 @@
 """
 RAG + Claude chat logic for the Tausa Archive API.
 
-Retrieves relevant archive chunks, builds a grounded prompt, and streams
-the Claude response as Server-Sent Events (SSE). Each SSE stream starts
-with a citations event so the frontend can render the source panel before
-the answer text arrives.
+Pipeline for each request:
+  1. Fetch RAG_FETCH_CANDIDATES chunks from ChromaDB.
+  2. Filter by RAG_MAX_DISTANCE to discard unrelated chunks.
+  3. Emit the relevant chunks as citations (SSE) before any text.
+  4. Build a grounded context block and call Claude with web search enabled,
+     so the model can complement archive findings with public historical context.
+  5. Stream Claude's response as SSE text deltas.
 
 SSE event types emitted:
   {"type": "citations", "sources": [...]}   — sent once, before any text
@@ -26,22 +29,31 @@ from src.rag.retriever import ArchiveRetriever, RetrievalResult
 # System prompt
 # -------------------------------------------------------------------------
 
-_SYSTEM_PROMPT: str = """Eres un asistente archivista experto en el archivo histórico municipal \
-de Tausa, Cundinamarca, Colombia. Ayudas a funcionarios de la alcaldía a consultar documentos \
+_SYSTEM_PROMPT: str = """\
+Eres un asistente archivista experto en el archivo histórico municipal de Tausa, \
+Cundinamarca, Colombia. Ayudas a funcionarios de la alcaldía a consultar documentos \
 históricos que abarcan el período 1925–1954.
 
-Reglas estrictas:
-1. Responde ÚNICAMENTE con base en el contexto del archivo proporcionado a continuación.
-2. Si la respuesta no se encuentra en el contexto, indícalo claramente: \
-"No encontré información sobre eso en los documentos disponibles."
-3. Cita las fuentes usando la notación [FUENTE N] en tu respuesta.
-4. Responde siempre en español, con un tono profesional y claro.
-5. No inventes información ni extrapoles más allá de lo que dicen los documentos."""
+Tienes acceso a dos fuentes de información:
+- CONTEXTO DEL ARCHIVO: Fragmentos del archivo histórico municipal (fuente primaria).
+- Búsqueda web: Puedes buscar en internet para complementar con contexto histórico general.
 
-_CONTEXT_ITEM_TEMPLATE: str = (
-    "[FUENTE {n}] {title} — Página {page}\n"
-    "{text}\n"
-)
+Reglas:
+1. El CONTEXTO DEL ARCHIVO es tu fuente primaria. Cita estos fragmentos con [FUENTE N].
+2. Usa la búsqueda web SOLO para:
+   - Proporcionar contexto histórico general sobre Colombia, Cundinamarca o Tausa \
+que no esté en el archivo.
+   - Verificar o completar datos del archivo con información de dominio público.
+   - Responder preguntas donde el archivo no contiene información relevante.
+3. Distingue claramente el origen de cada dato: \
+"Según el archivo..." vs "Según fuentes externas...".
+4. Si el archivo tiene texto ilegible o incompleto, indícalo con una ⚠️ nota archivística \
+y recomienda la consulta directa del documento original.
+5. Nunca inventes datos del archivo. Si algo no está en los documentos, dilo con claridad.
+6. Responde siempre en español con tono profesional y claro.\
+"""
+
+_CONTEXT_ITEM_TEMPLATE: str = "[FUENTE {n}] {title} — Página {page}\n{text}\n"
 
 
 # -------------------------------------------------------------------------
@@ -57,54 +69,63 @@ async def stream_chat_response(
 ) -> AsyncIterator[str]:
     """Yield SSE-formatted strings for a full RAG + Claude chat turn.
 
-    Runs the synchronous retrieval step in a thread pool to avoid blocking
-    the async event loop, then streams the Claude response.
-
     Args:
         query:     User's natural-language question.
         retriever: Initialised ArchiveRetriever (shared across requests).
         client:    Async Anthropic client (shared across requests).
-        n_sources: Number of archive chunks to retrieve.
+        n_sources: Maximum number of archive chunks shown as citations.
 
     Yields:
         SSE-formatted strings (``"data: {...}\\n\\n"``).
     """
     try:
-        # Retrieval is sync (ChromaDB + sentence-transformers); run off the event loop.
-        results: list[RetrievalResult] = await run_in_threadpool(
-            retriever.retrieve, query, n_sources
+        # --- 1. Retrieve and filter ----------------------------------------
+        # Fetch more candidates than needed so the distance filter has headroom.
+        candidates: list[RetrievalResult] = await run_in_threadpool(
+            retriever.retrieve, query, settings.RAG_FETCH_CANDIDATES
         )
 
-        # Emit citations before any text so the frontend can render the panel immediately.
-        citations = [
+        relevant = [
+            r for r in candidates if r.distance <= settings.RAG_MAX_DISTANCE
+        ][:n_sources]
+
+        # When no chunk clears the threshold, fall back to the closest two
+        # candidates so Claude always has some archival context to anchor on.
+        archive_match = bool(relevant)
+        context_results = relevant if archive_match else candidates[:2]
+
+        # --- 2. Emit citations ---------------------------------------------
+        yield _sse(
             {
-                "document_title": r.document_title,
-                "page_number": r.page_number,
-                "excerpt": r.text[:250],
-                "distance": round(r.distance, 4),
+                "type": "citations",
+                "sources": [
+                    {
+                        "document_title": r.document_title,
+                        "page_number": r.page_number,
+                        "excerpt": r.text[:250],
+                        "distance": round(r.distance, 4),
+                    }
+                    for r in context_results
+                ],
             }
-            for r in results
-        ]
-        yield _sse({"type": "citations", "sources": citations})
-
-        # Build the grounded context block.
-        context_block = "\n\n".join(
-            _CONTEXT_ITEM_TEMPLATE.format(
-                n=i + 1,
-                title=r.document_title,
-                page=r.page_number,
-                text=r.text,
-            )
-            for i, r in enumerate(results)
         )
+
+        # --- 3. Build context block ----------------------------------------
+        context_block = _build_context(context_results, archive_match)
         user_message = f"Pregunta: {query}\n\nCONTEXTO DEL ARCHIVO:\n{context_block}"
 
-        # Stream the Claude response.
+        # --- 4. Stream Claude response (with optional web search) ----------
+        extra_kwargs: dict = {}
+        if settings.WEB_SEARCH_ENABLED:
+            extra_kwargs["tools"] = [{"type": "web_search_20250305"}]
+            extra_kwargs["betas"] = ["web-search-2025-03-05"]
+
         async with client.messages.stream(
             model=settings.CLAUDE_MODEL,
             max_tokens=settings.MAX_OUTPUT_TOKENS,
             system=_SYSTEM_PROMPT,
             messages=[{"role": "user", "content": user_message}],
+            **extra_kwargs,
         ) as stream:
             async for text_chunk in stream.text_stream:
                 yield _sse({"type": "text", "delta": text_chunk})
@@ -118,6 +139,37 @@ async def stream_chat_response(
 # -------------------------------------------------------------------------
 # Private helpers
 # -------------------------------------------------------------------------
+
+
+def _build_context(results: list[RetrievalResult], archive_match: bool) -> str:
+    """Format retrieved chunks into the context block injected into the prompt.
+
+    Args:
+        results:       Filtered list of RetrievalResult objects.
+        archive_match: True when at least one chunk cleared the distance threshold.
+
+    Returns:
+        Formatted multi-line string ready to embed in the user message.
+    """
+    items = "\n\n".join(
+        _CONTEXT_ITEM_TEMPLATE.format(
+            n=i + 1,
+            title=r.document_title,
+            page=r.page_number,
+            text=r.text,
+        )
+        for i, r in enumerate(results)
+    )
+
+    if not archive_match:
+        items = (
+            "[NOTA INTERNA: Los siguientes fragmentos son los más cercanos encontrados "
+            "en el archivo, pero su similitud con la pregunta es baja. Úsalos solo como "
+            "referencia de contexto y complementa con búsqueda web si es necesario.]\n\n"
+            + items
+        )
+
+    return items
 
 
 def _sse(payload: dict) -> str:

@@ -65,5 +65,22 @@ ALLOWED_ORIGINS: list[str] = os.getenv(
     "ALLOWED_ORIGINS", "http://localhost:3000"
 ).split(",")
 
-# Default number of archive chunks retrieved per chat query.
+# Default number of archive chunks shown to the user as citations.
 RAG_N_RESULTS: int = int(os.getenv("RAG_N_RESULTS", "5"))
+
+# Number of candidates fetched from ChromaDB before relevance filtering.
+# Must be >= RAG_N_RESULTS. Extra headroom ensures enough results survive
+# the distance filter.
+RAG_FETCH_CANDIDATES: int = int(os.getenv("RAG_FETCH_CANDIDATES", "12"))
+
+# Maximum cosine distance for a chunk to be considered relevant.
+# ChromaDB cosine distance: 0.0 = identical, 1.0 = unrelated.
+# Chunks above this threshold are excluded from the context sent to Claude.
+# Tune down (e.g. 0.45) for stricter relevance, up (e.g. 0.70) if too few
+# results are returned for broad queries.
+RAG_MAX_DISTANCE: float = float(os.getenv("RAG_MAX_DISTANCE", "0.55"))
+
+# Enable Anthropic's built-in web search tool so Claude can complement
+# archive answers with public historical context when needed.
+# Set to "false" to disable (e.g. to reduce costs or latency).
+WEB_SEARCH_ENABLED: bool = os.getenv("WEB_SEARCH_ENABLED", "true").lower() == "true"
