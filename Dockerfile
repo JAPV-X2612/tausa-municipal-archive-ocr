@@ -45,11 +45,11 @@ COPY src/ ./src/
 COPY outputs/ ./outputs/
 COPY serve.py ingest.py transcribe.py .env.example entrypoint.sh ./
 
-# ── Security: non-root user ───────────────────────────────────────────────────
-RUN useradd -m -u 1000 appuser \
-    && chown -R appuser:appuser /app \
-    && chmod +x /app/entrypoint.sh
-USER appuser
+# ── Permissions ───────────────────────────────────────────────────────────────
+# Running as root so Railway volume mounts (which arrive as root-owned dirs)
+# are writable by the process. Railway provides container-level isolation so
+# running as root inside the container is safe on this platform.
+RUN chmod +x /app/entrypoint.sh
 
 # ── Runtime ───────────────────────────────────────────────────────────────────
 # NOTE: Railway does not support the VOLUME instruction. Configure persistent
