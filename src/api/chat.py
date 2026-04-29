@@ -80,19 +80,27 @@ async def stream_chat_response(
     """
     try:
         # --- 1. Retrieve and filter ----------------------------------------
-        # Fetch more candidates than needed so the distance filter has headroom.
-        candidates: list[RetrievalResult] = await run_in_threadpool(
-            retriever.retrieve, query, settings.RAG_FETCH_CANDIDATES
-        )
+        # If the query explicitly names a document, fetch all its chunks in
+        # page order (document-aware mode). Otherwise, run the standard
+        # semantic similarity search with distance filtering.
+        doc_source = retriever.detect_document_reference(query)
 
-        relevant = [
-            r for r in candidates if r.distance <= settings.RAG_MAX_DISTANCE
-        ][:n_sources]
-
-        # When no chunk clears the threshold, fall back to the closest two
-        # candidates so Claude always has some archival context to anchor on.
-        archive_match = bool(relevant)
-        context_results = relevant if archive_match else candidates[:2]
+        if doc_source:
+            context_results: list[RetrievalResult] = await run_in_threadpool(
+                retriever.retrieve_by_document, doc_source
+            )
+            archive_match = bool(context_results)
+        else:
+            candidates: list[RetrievalResult] = await run_in_threadpool(
+                retriever.retrieve, query, settings.RAG_FETCH_CANDIDATES
+            )
+            relevant = [
+                r for r in candidates if r.distance <= settings.RAG_MAX_DISTANCE
+            ][:n_sources]
+            # When no chunk clears the threshold, fall back to the closest two
+            # candidates so Claude always has some archival context to anchor on.
+            archive_match = bool(relevant)
+            context_results = relevant if archive_match else candidates[:2]
 
         # --- 2. Emit citations ---------------------------------------------
         yield _sse(

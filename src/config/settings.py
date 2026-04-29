@@ -66,12 +66,12 @@ ALLOWED_ORIGINS: list[str] = os.getenv(
 ).split(",")
 
 # Default number of archive chunks shown to the user as citations.
-RAG_N_RESULTS: int = int(os.getenv("RAG_N_RESULTS", "5"))
+RAG_N_RESULTS: int = int(os.getenv("RAG_N_RESULTS", "10"))
 
 # Number of candidates fetched from ChromaDB before relevance filtering.
 # Must be >= RAG_N_RESULTS. Extra headroom ensures enough results survive
 # the distance filter.
-RAG_FETCH_CANDIDATES: int = int(os.getenv("RAG_FETCH_CANDIDATES", "12"))
+RAG_FETCH_CANDIDATES: int = int(os.getenv("RAG_FETCH_CANDIDATES", "20"))
 
 # Maximum cosine distance for a chunk to be considered relevant.
 # ChromaDB cosine distance: 0.0 = identical, 1.0 = unrelated.
