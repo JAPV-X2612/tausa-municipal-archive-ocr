@@ -127,7 +127,7 @@ async def stream_chat_response(
         if settings.WEB_SEARCH_ENABLED:
             stream_ctx = client.beta.messages.stream(
                 **common_kwargs,
-                tools=[{"type": "web_search_20250305"}],
+                tools=[{"type": "web_search_20250305", "name": "web_search"}],
                 betas=["web-search-2025-03-05"],
             )
         else:
