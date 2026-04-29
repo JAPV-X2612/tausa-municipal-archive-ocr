@@ -4,12 +4,21 @@ Pydantic request and response schemas for the Tausa Archive API.
 
 from pydantic import BaseModel, Field
 
+from src.config import settings
+
 
 class ChatRequest(BaseModel):
     """Incoming chat message from the frontend."""
 
     message: str = Field(..., min_length=1, max_length=2000)
-    n_sources: int = Field(5, ge=1, le=20, description="Number of archive chunks to retrieve.")
+    # n_sources is optional: if omitted by the client the server default
+    # (RAG_N_RESULTS env var) is used, keeping RAG tuning server-side.
+    n_sources: int = Field(
+        default=settings.RAG_N_RESULTS,
+        ge=1,
+        le=50,
+        description="Number of archive chunks to retrieve. Defaults to RAG_N_RESULTS.",
+    )
 
 
 class SourceCitation(BaseModel):
