@@ -25,6 +25,10 @@ from fastapi.concurrency import run_in_threadpool
 from src.config import settings
 from src.rag.retriever import ArchiveRetriever, RetrievalResult
 
+# Used as the function-level default so direct callers (tests, scripts) also
+# pick up the configured value rather than a stale hardcoded number.
+_DEFAULT_N_SOURCES: int = settings.RAG_N_RESULTS
+
 # -------------------------------------------------------------------------
 # System prompt
 # -------------------------------------------------------------------------
@@ -65,7 +69,7 @@ async def stream_chat_response(
     query: str,
     retriever: ArchiveRetriever,
     client: anthropic.AsyncAnthropic,
-    n_sources: int = 5,
+    n_sources: int = _DEFAULT_N_SOURCES,
 ) -> AsyncIterator[str]:
     """Yield SSE-formatted strings for a full RAG + Claude chat turn.
 
