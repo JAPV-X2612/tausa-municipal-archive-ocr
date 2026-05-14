@@ -36,26 +36,57 @@ _DEFAULT_N_SOURCES: int = settings.RAG_N_RESULTS
 _SYSTEM_PROMPT: str = """\
 Eres un asistente archivista experto en el archivo histórico municipal de Tausa, \
 Cundinamarca, Colombia. Ayudas a funcionarios de la alcaldía a consultar documentos \
-históricos que abarcan el período 1925–1954.
+históricos digitalizados mediante OCR.
+
+INVENTARIO DEL ARCHIVO DISPONIBLE:
+- Administración General de Salinas (1931–1942): Registro tabular de distribución de sal \
+(decalitros, valores en pesos, números de informe) por distribuidor. Incluye nombres como \
+Pascual Rodríguez, Gilbert González y otros. Organizado por mes y fecha.
+- Administración General de Salinas (1942–1948): Continuación del registro anterior. \
+Distribuidores como Gargan y Gangaly, Canto y Puars. Datos de volúmenes y valores de sal.
+- Libro del Despacho del Alcalde (1925–1928): Libro de posesiones de empleados municipales \
+desde febrero de 1925. Actas de posesión de funcionarios.
+- Libro del Despacho del Alcalde (1928–1932): Actas de posesión de empleados y funcionarios \
+del municipio de Tausa.
+- Libro del Despacho del Alcalde (1933): Libro de posesión de empleados, año 1933.
+- Libro del Despacho del Alcalde (1953–1954): Contratos municipales de obras y servicios, \
+correspondencia oficial. Incluye contratos con particulares firmados por el Personero Municipal.
+- Diario Oficial — Estados Unidos de Colombia, Partes 1 y 2: Publicaciones oficiales del \
+gobierno nacional colombiano (circa 1865), con decretos del Poder Ejecutivo, comunicaciones \
+diplomáticas y balances del Tesoro Nacional. Documento de contexto histórico nacional, \
+anterior al período municipal principal.
 
 Tienes acceso a dos fuentes de información:
-- CONTEXTO DEL ARCHIVO: Fragmentos del archivo histórico municipal (fuente primaria).
-- Búsqueda web: Puedes buscar en internet para complementar con contexto histórico general.
+- CONTEXTO DEL ARCHIVO: Fragmentos de los documentos anteriores (fuente primaria).
+- Búsqueda web: Para complementar con contexto histórico general cuando el archivo no \
+contiene la información solicitada.
 
 Reglas:
-1. El CONTEXTO DEL ARCHIVO es tu fuente primaria. Cita estos fragmentos con [FUENTE N].
-2. Usa la búsqueda web SOLO para:
-   - Proporcionar contexto histórico general sobre Colombia, Cundinamarca o Tausa \
-que no esté en el archivo.
+1. El CONTEXTO DEL ARCHIVO es tu fuente primaria. Cita siempre con [FUENTE N].
+2. Usa TODOS los fragmentos del archivo disponibles antes de recurrir a la web. \
+Si varios fragmentos contienen información parcial, intégralos en una respuesta coherente.
+3. Usa la búsqueda web SOLO para:
+   - Contexto histórico general sobre Colombia, Cundinamarca o Tausa.
    - Verificar o completar datos del archivo con información de dominio público.
-   - Responder preguntas donde el archivo no contiene información relevante.
-3. Distingue claramente el origen de cada dato: \
-"Según el archivo..." vs "Según fuentes externas...".
-4. Si el archivo tiene texto ilegible o incompleto, indícalo con una ⚠️ nota archivística \
-y recomienda la consulta directa del documento original.
-5. Nunca inventes datos del archivo. Si algo no está en los documentos, dilo con claridad.
-6. Responde siempre en español con tono profesional y claro.\
+   - Responder cuando el archivo definitivamente no contiene información relevante.
+4. Distingue siempre el origen: "Según el archivo..." vs "Según fuentes externas...".
+5. Si el archivo tiene texto ilegible o incompleto, indícalo con ⚠️ y recomienda \
+la consulta directa del documento original en el archivo físico municipal.
+6. Nunca inventes datos del archivo. Si algo no está en los documentos, dilo con claridad.
+7. Responde siempre en español con tono profesional y claro.\
 """
+
+# Wrap the system prompt in a cached content block so the Anthropic API
+# reuses the prompt tokens across requests (90 % discount on input cost).
+# The cache is ephemeral (5-minute TTL) and is refreshed automatically on
+# each request that arrives after the cache expires.
+_SYSTEM_PROMPT_BLOCKS: list[dict] = [
+    {
+        "type": "text",
+        "text": _SYSTEM_PROMPT,
+        "cache_control": {"type": "ephemeral"},
+    }
+]
 
 _CONTEXT_ITEM_TEMPLATE: str = "[FUENTE {n}] {title} — Página {page}\n{text}\n"
 
@@ -98,13 +129,10 @@ async def stream_chat_response(
             candidates: list[RetrievalResult] = await run_in_threadpool(
                 retriever.retrieve, query, settings.RAG_FETCH_CANDIDATES
             )
-            relevant = [
-                r for r in candidates if r.distance <= settings.RAG_MAX_DISTANCE
-            ][:n_sources]
-            # When no chunk clears the threshold, fall back to the closest two
-            # candidates so Claude always has some archival context to anchor on.
-            archive_match = bool(relevant)
-            context_results = relevant if archive_match else candidates[:2]
+            archive_match = any(
+                r.distance <= settings.RAG_MAX_DISTANCE for r in candidates
+            )
+            context_results = candidates[:n_sources]
 
         # --- 2. Emit citations ---------------------------------------------
         yield _sse(
@@ -132,7 +160,7 @@ async def stream_chat_response(
         common_kwargs: dict = dict(
             model=settings.CLAUDE_MODEL,
             max_tokens=settings.MAX_OUTPUT_TOKENS,
-            system=_SYSTEM_PROMPT,
+            system=_SYSTEM_PROMPT_BLOCKS,
             messages=[{"role": "user", "content": user_message}],
         )
 
