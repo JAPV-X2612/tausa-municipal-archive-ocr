@@ -27,7 +27,7 @@ OUTPUTS_DIR: Path = ROOT_DIR / "outputs"
 
 ANTHROPIC_API_KEY: str = os.getenv("ANTHROPIC_API_KEY", "")
 CLAUDE_MODEL: str = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-6")
-MAX_OUTPUT_TOKENS: int = int(os.getenv("MAX_OUTPUT_TOKENS", "4096"))
+MAX_OUTPUT_TOKENS: int = int(os.getenv("MAX_OUTPUT_TOKENS", "8192"))
 
 # =============================================================================
 # IMAGE PROCESSING
